@@ -1,0 +1,96 @@
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-04-30 14:26:11	 636 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-04-30 15:17:11	 728 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-04-30 16:08:11	 728 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-04-30 16:59:11	 738 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-04-30 17:50:11	 723 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-04-30 18:41:11	 725 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-04-30 19:32:11	 723 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-04-30 20:23:11	 738 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-04-30 21:14:11	 724 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-04-30 22:05:11	 725 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-04-30 22:56:11	 728 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-04-30 23:47:11	 720 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 00:38:11	 713 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 01:29:11	 715 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 02:20:11	 728 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 03:11:11	 710 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 04:02:11	 713 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 04:53:11	 713 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 05:44:11	 717 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 06:35:11	 711 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 07:26:11	 716 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 08:17:11	 723 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 09:08:11	 724 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 09:59:11	 713 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 10:50:11	 721 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 11:41:11	 723 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 11:48:23	 762 	c1272 	308 	 236 	 10111000 	 184 	 8541192 	 39	 47	 24	 51	 8	 61	 
+2019-05-01 11:48:35	 786 	c1272 	309 	 244 	 10111000 	 184 	 8663880 	 39	 47	 24	 51	 9	 61	 
+2019-05-01 11:56:18	 905 	c1272 	311 	 255 	 11110100 	 244 	 13387296 	 40	 47	 24	 51	 9	 61	 
+2019-05-01 11:56:59	 382 	c1272 	312 	 5 	 01111000 	 120 	 13800144 	 40	 47	 24	 52	 9	 61	 
+2019-05-01 12:07:10	 200 	c1272 	314 	 13 	 10110100 	 180 	 3254288 	 40	 48	 24	 52	 9	 62	 
+2019-05-01 12:09:30	 792 	c1272 	315 	 23 	 01111000 	 120 	 4689008 	 40	 48	 24	 53	 9	 62	 
+2019-05-01 12:14:51	 114 	c1272 	318 	 36 	 11110100 	 244 	 7957448 	 41	 48	 24	 53	 9	 62	 
+2019-05-01 12:15:03	 518 	c1272 	319 	 44 	 01111000 	 120 	 8083928 	 41	 48	 24	 54	 9	 62	 
+2019-05-01 12:28:32	 496 	c1272 	320 	 54 	 10110100 	 180 	 16342760 	 41	 49	 24	 54	 9	 63	 
+2019-05-01 12:29:33	 243 	c1272 	322 	 67 	 11110100 	 244 	 184984 	 42	 49	 24	 54	 9	 63	 
+2019-05-01 12:29:42	 431 	c1272 	323 	 71 	 10101000 	 168 	 278608 	 43	 49	 24	 54	 9	 63	 
+2019-05-01 12:30:02	 308 	c1272 	324 	 83 	 10111000 	 184 	 481264 	 43	 49	 24	 54	 10	 63	 
+2019-05-01 12:30:10	 187 	c1272 	325 	 93 	 01111000 	 120 	 561616 	 43	 49	 24	 55	 10	 63	 
+2019-05-01 12:32:12	 740 	c1272	1386 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 12:34:31	 594 	c1272 	326 	 102 	 11110100 	 244 	 3225424 	 44	 49	 24	 55	 10	 63	 
+2019-05-01 12:34:42	 576 	c1272 	328 	 115 	 01111000 	 120 	 3337360 	 44	 49	 24	 56	 10	 63	 
+2019-05-01 12:41:59	 200 	c1272 	330 	 125 	 01110100 	 116 	 7789912 	 44	 49	 25	 56	 10	 64	 
+2019-05-01 13:23:11	1018 	c1272	449 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 14:12:11	 696 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 14:12:12	 239 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 14:12:13	 242 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 14:12:14	 242 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 14:12:15	 246 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 14:12:16	 245 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 14:12:17	 235 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 14:12:18	 240 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 14:12:19	 239 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 14:12:21	 240 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 14:12:22	 243 	c1272	161 bytes to file.
+Date	 Hmsec	 CounterID	 EventID	 CounterMsgID	 Status(bin)	 Status(dec)	 Timer[s/12000]	 Unclear	 Entry	 LookIn	 Exit	 LookOut	 Visits
+2019-05-01 14:12:23	 242 	c1272	161 bytes to file.
