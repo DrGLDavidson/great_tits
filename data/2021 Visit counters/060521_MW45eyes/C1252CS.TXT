@@ -1,0 +1,379 @@
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-06 14:46:13	890 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-06 15:37:13	859 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-06 16:28:13	859 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-06 17:19:13	860 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-06 18:10:13	861 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-06 19:01:13	860 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-06 19:52:13	865 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-06 20:43:13	902 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-06 21:34:13	846 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-06 22:25:13	869 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-06 23:16:13	831 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 00:07:13	827 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 00:58:13	829 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 01:49:13	826 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 02:40:13	871 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 03:31:13	826 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 04:22:13	828 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 05:13:13	835 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 06:04:13	835 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 06:55:13	840 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 07:46:13	839 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 08:37:13	842 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 09:28:13	888 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 10:12:21	 727 	c1252 	4312 	 222 	 10101010 	 170 	 3925288 
+2021-05-07 10:12:21	 753 	c1252 	4313 	 223 	 10101000 	 168 	 3925552 
+2021-05-07 10:12:21	 986 	c1252 	4313 	 224 	 10101010 	 170 	 3927856 
+2021-05-07 10:12:21	1037 	c1252 	4314 	 225 	 10101000 	 168 	 3928360 
+2021-05-07 10:12:22	 284 	c1252 	4314 	 227 	 00000000 	 0 	 3932368 
+2021-05-07 10:12:24	 476 	c1252 	4314 	 228 	 01010101 	 85 	 3957256 
+2021-05-07 10:12:24	 573 	c1252 	4315 	 229 	 11110111 	 247 	 3958216 
+2021-05-07 10:12:24	1139 	c1252 	4315 	 230 	 01110101 	 117 	 3963808 
+2021-05-07 10:12:25	  18 	c1252 	4315 	 231 	 01110100 	 116 	 3964216 
+2021-05-07 10:12:25	 427 	c1252 	4315 	 233 	 00000000 	 0 	 3968224 
+2021-05-07 10:12:35	 950 	c1252 	4315 	 234 	 00000000 	 0 	 4088200 
+2021-05-07 10:12:43	 125 	c1252 	4315 	 235 	 01010101 	 85 	 4171864 
+2021-05-07 10:12:47	  91 	c1252 	4316 	 236 	 01010100 	 84 	 4217440 
+2021-05-07 10:12:47	 500 	c1252 	4316 	 238 	 00000000 	 0 	 4221448 
+2021-05-07 10:19:13	977 	 c1252 	 646 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 10:25:41	1006 	c1252 	4316 	 239 	 01010101 	 85 	 13060936 
+2021-05-07 10:25:42	  22 	c1252 	4317 	 240 	 11110111 	 247 	 13062664 
+2021-05-07 10:25:42	 859 	c1252 	4317 	 241 	 10110110 	 182 	 13070872 
+2021-05-07 10:25:42	 893 	c1252 	4317 	 242 	 11110111 	 247 	 13071208 
+2021-05-07 10:25:42	 935 	c1252 	4317 	 243 	 10110110 	 182 	 13071616 
+2021-05-07 10:25:42	 937 	c1252 	4317 	 244 	 10110100 	 180 	 13071640 
+2021-05-07 10:25:43	 188 	c1252 	4317 	 246 	 00000000 	 0 	 13075648 
+2021-05-07 10:25:53	 114 	c1252 	4317 	 247 	 10101010 	 170 	 13188688 
+2021-05-07 10:25:53	 129 	c1252 	4318 	 248 	 11111011 	 251 	 13188832 
+2021-05-07 10:25:53	 861 	c1252 	4318 	 249 	 01111001 	 121 	 13196008 
+2021-05-07 10:25:53	 875 	c1252 	4318 	 250 	 01111000 	 120 	 13196152 
+2021-05-07 10:25:53	 897 	c1252 	4318 	 251 	 01111001 	 121 	 13196368 
+2021-05-07 10:25:53	 900 	c1252 	4318 	 252 	 01111000 	 120 	 13196392 
+2021-05-07 10:25:54	 151 	c1252 	4318 	 254 	 00000000 	 0 	 13200400 
+2021-05-07 10:27:19	 238 	c1252 	4318 	 255 	 01010101 	 85 	 14167888 
+2021-05-07 10:27:19	 277 	c1252 	4319 	 0 	 11110111 	 247 	 14168272 
+2021-05-07 10:27:20	 385 	c1252 	4319 	 1 	 10110110 	 182 	 14180704 
+2021-05-07 10:27:20	 392 	c1252 	4319 	 2 	 10110100 	 180 	 14180776 
+2021-05-07 10:27:20	 449 	c1252 	4319 	 3 	 01110101 	 117 	 14181328 
+2021-05-07 10:27:20	 456 	c1252 	4320 	 4 	 01110100 	 116 	 14181400 
+2021-05-07 10:27:20	 867 	c1252 	4320 	 6 	 00000000 	 0 	 14185408 
+2021-05-07 10:27:27	 766 	c1252 	4320 	 7 	 10101010 	 170 	 14264032 
+2021-05-07 10:27:27	 784 	c1252 	4321 	 8 	 11111011 	 251 	 14264200 
+2021-05-07 10:27:28	 101 	c1252 	4321 	 9 	 01111001 	 121 	 14268880 
+2021-05-07 10:27:28	 113 	c1252 	4321 	 10 	 01111000 	 120 	 14269000 
+2021-05-07 10:27:28	 525 	c1252 	4321 	 12 	 00000000 	 0 	 14273008 
+2021-05-07 10:29:41	 752 	c1252 	4321 	 13 	 01010101 	 85 	 15786736 
+2021-05-07 10:29:41	 779 	c1252 	4322 	 14 	 11110111 	 247 	 15787000 
+2021-05-07 10:29:42	 337 	c1252 	4322 	 15 	 01110101 	 117 	 15794032 
+2021-05-07 10:29:42	 347 	c1252 	4322 	 16 	 11110111 	 247 	 15794128 
+2021-05-07 10:29:42	 381 	c1252 	4322 	 17 	 10110110 	 182 	 15794464 
+2021-05-07 10:29:42	 398 	c1252 	4322 	 18 	 10110100 	 180 	 15794632 
+2021-05-07 10:29:42	 406 	c1252 	4322 	 19 	 01110101 	 117 	 15794704 
+2021-05-07 10:29:42	 411 	c1252 	4323 	 20 	 01110100 	 116 	 15794752 
+2021-05-07 10:29:42	 452 	c1252 	4323 	 21 	 10110110 	 182 	 15795160 
+2021-05-07 10:29:42	 457 	c1252 	4324 	 22 	 10110100 	 180 	 15795208 
+2021-05-07 10:29:42	 467 	c1252 	4324 	 23 	 10110110 	 182 	 15795304 
+2021-05-07 10:29:42	 504 	c1252 	4324 	 24 	 10110100 	 180 	 15795664 
+2021-05-07 10:29:42	 749 	c1252 	4324 	 25 	 01110101 	 117 	 15798064 
+2021-05-07 10:29:48	 884 	c1252 	4325 	 26 	 01110100 	 116 	 15867568 
+2021-05-07 10:29:48	 898 	c1252 	4325 	 27 	 01110101 	 117 	 15867712 
+2021-05-07 10:29:48	 950 	c1252 	4325 	 28 	 01110100 	 116 	 15868216 
+2021-05-07 10:29:49	 126 	c1252 	4325 	 29 	 01110101 	 117 	 15871504 
+2021-05-07 10:29:49	 173 	c1252 	4326 	 30 	 01110100 	 116 	 15871960 
+2021-05-07 10:29:49	 584 	c1252 	4326 	 32 	 00000000 	 0 	 15875968 
+2021-05-07 10:29:50	 230 	c1252 	4326 	 33 	 01010101 	 85 	 15883888 
+2021-05-07 10:29:50	 248 	c1252 	4327 	 34 	 01010100 	 84 	 15884056 
+2021-05-07 10:29:50	 267 	c1252 	4327 	 35 	 01010101 	 85 	 15884248 
+2021-05-07 10:29:50	 348 	c1252 	4328 	 36 	 01010100 	 84 	 15885040 
+2021-05-07 10:29:50	 353 	c1252 	4328 	 37 	 01010101 	 85 	 15885088 
+2021-05-07 10:29:50	 355 	c1252 	4329 	 38 	 01010100 	 84 	 15885112 
+2021-05-07 10:29:50	 767 	c1252 	4329 	 40 	 00000000 	 0 	 15889120 
+2021-05-07 10:29:51	 315 	c1252 	4329 	 41 	 10101010 	 170 	 15896080 
+2021-05-07 10:29:51	 330 	c1252 	4330 	 42 	 11111011 	 251 	 15896224 
+2021-05-07 10:29:51	 335 	c1252 	4330 	 43 	 01111001 	 121 	 15896272 
+2021-05-07 10:29:51	 342 	c1252 	4330 	 44 	 11111011 	 251 	 15896344 
+2021-05-07 10:29:51	 840 	c1252 	4330 	 45 	 01111001 	 121 	 15901216 
+2021-05-07 10:29:51	 862 	c1252 	4330 	 46 	 01111000 	 120 	 15901432 
+2021-05-07 10:29:51	 877 	c1252 	4330 	 47 	 01111001 	 121 	 15901576 
+2021-05-07 10:29:51	 879 	c1252 	4330 	 48 	 11111011 	 251 	 15901600 
+2021-05-07 10:29:51	 886 	c1252 	4330 	 49 	 01111001 	 121 	 15901672 
+2021-05-07 10:29:51	 889 	c1252 	4330 	 50 	 01111000 	 120 	 15901696 
+2021-05-07 10:29:52	 141 	c1252 	4330 	 52 	 00000000 	 0 	 15905704 
+2021-05-07 10:31:15	 105 	c1252 	4330 	 53 	 01010101 	 85 	 70824 
+2021-05-07 10:31:15	 318 	c1252 	4331 	 54 	 11110111 	 247 	 72912 
+2021-05-07 10:31:15	1105 	c1252 	4331 	 55 	 10110110 	 182 	 80616 
+2021-05-07 10:31:15	1131 	c1252 	4331 	 56 	 10110100 	 180 	 80880 
+2021-05-07 10:31:16	 384 	c1252 	4331 	 58 	 00000000 	 0 	 84888 
+2021-05-07 10:43:19	 861 	c1252 	4331 	 59 	 10101010 	 170 	 8294928 
+2021-05-07 10:43:19	 888 	c1252 	4332 	 60 	 11111011 	 251 	 8295192 
+2021-05-07 10:43:19	 932 	c1252 	4332 	 61 	 10111010 	 186 	 8295624 
+2021-05-07 10:43:19	 986 	c1252 	4332 	 62 	 11111011 	 251 	 8296152 
+2021-05-07 10:43:20	 256 	c1252 	4332 	 63 	 01111001 	 121 	 8300352 
+2021-05-07 10:43:20	 268 	c1252 	4332 	 64 	 01111000 	 120 	 8300472 
+2021-05-07 10:43:20	 280 	c1252 	4332 	 65 	 11111011 	 251 	 8300592 
+2021-05-07 10:43:20	 285 	c1252 	4332 	 66 	 11111000 	 248 	 8300640 
+2021-05-07 10:43:20	 697 	c1252 	4332 	 68 	 00000000 	 0 	 8304648 
+2021-05-07 10:51:29	 215 	c1252 	4332 	 69 	 01010101 	 85 	 13844976 
+2021-05-07 10:51:29	 254 	c1252 	4333 	 70 	 11110111 	 247 	 13845360 
+2021-05-07 10:51:29	1137 	c1252 	4333 	 71 	 10110110 	 182 	 13854000 
+2021-05-07 10:51:29	1142 	c1252 	4333 	 72 	 10110100 	 180 	 13854048 
+2021-05-07 10:51:30	 396 	c1252 	4333 	 74 	 00000000 	 0 	 13858056 
+2021-05-07 10:51:38	 214 	c1252 	4333 	 75 	 10101010 	 170 	 13946904 
+2021-05-07 10:51:38	 229 	c1252 	4334 	 76 	 11111011 	 251 	 13947048 
+2021-05-07 10:51:38	 234 	c1252 	4334 	 77 	 01111001 	 121 	 13947096 
+2021-05-07 10:51:38	 248 	c1252 	4334 	 78 	 11111011 	 251 	 13947240 
+2021-05-07 10:51:38	 253 	c1252 	4334 	 79 	 10111010 	 186 	 13947288 
+2021-05-07 10:51:38	 270 	c1252 	4334 	 80 	 11111011 	 251 	 13947456 
+2021-05-07 10:51:38	 658 	c1252 	4334 	 81 	 01111001 	 121 	 13951248 
+2021-05-07 10:51:38	 675 	c1252 	4334 	 82 	 01111000 	 120 	 13951416 
+2021-05-07 10:51:38	1088 	c1252 	4334 	 84 	 00000000 	 0 	 13955424 
+2021-05-07 10:54:12	 857 	c1252 	4334 	 85 	 01010101 	 85 	 15696792 
+2021-05-07 10:54:12	 888 	c1252 	4335 	 86 	 11110111 	 247 	 15697104 
+2021-05-07 10:54:13	 345 	c1252 	4335 	 87 	 10110110 	 182 	 15703104 
+2021-05-07 10:54:13	 355 	c1252 	4335 	 88 	 11110111 	 247 	 15703200 
+2021-05-07 10:54:13	 377 	c1252 	4335 	 89 	 10110110 	 182 	 15703416 
+2021-05-07 10:54:13	 384 	c1252 	4335 	 90 	 10110100 	 180 	 15703488 
+2021-05-07 10:54:13	 509 	c1252 	4335 	 91 	 01110101 	 117 	 15704712 
+2021-05-07 10:54:13	 561 	c1252 	4336 	 92 	 10110110 	 182 	 15705216 
+2021-05-07 10:54:13	 576 	c1252 	4336 	 93 	 10110100 	 180 	 15705360 
+2021-05-07 10:54:13	 989 	c1252 	4336 	 95 	 00000000 	 0 	 15709368 
+2021-05-07 10:58:00	1151 	c1252 	4336 	 96 	 10101010 	 170 	 1502768 
+2021-05-07 10:58:01	   4 	c1252 	4337 	 97 	 11111011 	 251 	 1502864 
+2021-05-07 10:58:01	  99 	c1252 	4337 	 98 	 10111010 	 186 	 1503800 
+2021-05-07 10:58:01	 143 	c1252 	4337 	 99 	 11111011 	 251 	 1504232 
+2021-05-07 10:58:02	1140 	c1252 	4337 	 100 	 01111001 	 121 	 1525304 
+2021-05-07 10:58:02	1152 	c1252 	4337 	 101 	 01111000 	 120 	 1525424 
+2021-05-07 10:58:03	  12 	c1252 	4337 	 102 	 11111011 	 251 	 1525592 
+2021-05-07 10:58:03	  17 	c1252 	4338 	 103 	 11111000 	 248 	 1525640 
+2021-05-07 10:58:03	  34 	c1252 	4338 	 104 	 01111001 	 121 	 1525808 
+2021-05-07 10:58:03	  36 	c1252 	4338 	 105 	 01111000 	 120 	 1525832 
+2021-05-07 10:58:03	 449 	c1252 	4338 	 107 	 00000000 	 0 	 1529840 
+2021-05-07 11:10:14	799 	 c1252 	 4370 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 11:12:28	1157 	c1252 	4338 	 108 	 01010101 	 85 	 11339024 
+2021-05-07 11:12:29	 112 	c1252 	4339 	 109 	 11110111 	 247 	 11340128 
+2021-05-07 11:12:30	 190 	c1252 	4339 	 110 	 01110101 	 117 	 11352224 
+2021-05-07 11:12:30	 236 	c1252 	4339 	 111 	 01110100 	 116 	 11352680 
+2021-05-07 11:12:30	 649 	c1252 	4339 	 113 	 00000000 	 0 	 11356688 
+2021-05-07 11:12:41	 171 	c1252 	4339 	 114 	 00000000 	 0 	 11476664 
+2021-05-07 11:13:05	 146 	c1252 	4339 	 115 	 10101010 	 170 	 11748224 
+2021-05-07 11:13:08	 835 	c1252 	4340 	 116 	 10101000 	 168 	 11788952 
+2021-05-07 11:13:09	  62 	c1252 	4340 	 117 	 10101010 	 170 	 11792720 
+2021-05-07 11:13:09	 305 	c1252 	4341 	 118 	 10101000 	 168 	 11795096 
+2021-05-07 11:13:09	 680 	c1252 	4341 	 119 	 10101010 	 170 	 11798768 
+2021-05-07 11:13:09	1119 	c1252 	4342 	 120 	 10101000 	 168 	 11803064 
+2021-05-07 11:13:09	1124 	c1252 	4342 	 121 	 10101010 	 170 	 11803112 
+2021-05-07 11:13:09	1126 	c1252 	4342 	 122 	 10101000 	 168 	 11803136 
+2021-05-07 11:13:10	 119 	c1252 	4342 	 123 	 10101010 	 170 	 11804600 
+2021-05-07 11:13:10	 511 	c1252 	4343 	 124 	 10101000 	 168 	 11808440 
+2021-05-07 11:13:10	 540 	c1252 	4343 	 125 	 10101010 	 170 	 11808728 
+2021-05-07 11:13:10	 599 	c1252 	4343 	 126 	 10101000 	 168 	 11809304 
+2021-05-07 11:13:10	 606 	c1252 	4343 	 127 	 10101010 	 170 	 11809376 
+2021-05-07 11:13:10	 609 	c1252 	4344 	 128 	 10101000 	 168 	 11809400 
+2021-05-07 11:13:10	 695 	c1252 	4344 	 129 	 10101010 	 170 	 11810240 
+2021-05-07 11:13:16	 630 	c1252 	4345 	 130 	 10101000 	 168 	 11877584 
+2021-05-07 11:13:16	 633 	c1252 	4345 	 131 	 10101010 	 170 	 11877608 
+2021-05-07 11:13:16	 635 	c1252 	4345 	 132 	 10101000 	 168 	 11877632 
+2021-05-07 11:13:16	 760 	c1252 	4345 	 133 	 10101010 	 170 	 11878856 
+2021-05-07 11:13:17	 645 	c1252 	4346 	 134 	 10101000 	 168 	 11889056 
+2021-05-07 11:13:17	 657 	c1252 	4346 	 135 	 10101010 	 170 	 11889176 
+2021-05-07 11:13:17	 908 	c1252 	4347 	 136 	 10101000 	 168 	 11891624 
+2021-05-07 11:13:17	 935 	c1252 	4347 	 137 	 10101010 	 170 	 11891888 
+2021-05-07 11:13:17	1131 	c1252 	4347 	 138 	 10101000 	 168 	 11893808 
+2021-05-07 11:13:18	 288 	c1252 	4347 	 139 	 10101010 	 170 	 11896880 
+2021-05-07 11:13:18	 961 	c1252 	4348 	 140 	 10101000 	 168 	 11903480 
+2021-05-07 11:13:19	 217 	c1252 	4348 	 142 	 00000000 	 0 	 11907488 
+2021-05-07 11:13:19	 726 	c1252 	4348 	 143 	 10101010 	 170 	 11912504 
+2021-05-07 11:13:19	 793 	c1252 	4349 	 144 	 10101000 	 168 	 11913152 
+2021-05-07 11:13:20	  48 	c1252 	4349 	 146 	 00000000 	 0 	 11917160 
+2021-05-07 11:13:20	 428 	c1252 	4349 	 147 	 10101010 	 170 	 11920904 
+2021-05-07 11:13:21	 296 	c1252 	4350 	 148 	 10101000 	 168 	 11930936 
+2021-05-07 11:13:21	 708 	c1252 	4350 	 150 	 00000000 	 0 	 11934944 
+2021-05-07 11:13:22	 149 	c1252 	4350 	 151 	 10101010 	 170 	 11940824 
+2021-05-07 11:13:22	 507 	c1252 	4351 	 152 	 10101000 	 168 	 11944328 
+2021-05-07 11:13:22	 715 	c1252 	4351 	 153 	 10101010 	 170 	 11946368 
+2021-05-07 11:13:22	 982 	c1252 	4352 	 154 	 10101000 	 168 	 11948984 
+2021-05-07 11:13:23	 238 	c1252 	4352 	 156 	 00000000 	 0 	 11952992 
+2021-05-07 11:13:24	 888 	c1252 	4352 	 157 	 10101010 	 170 	 11970704 
+2021-05-07 11:13:24	1035 	c1252 	4353 	 158 	 10101000 	 168 	 11972144 
+2021-05-07 11:13:25	 291 	c1252 	4353 	 160 	 00000000 	 0 	 11976152 
+2021-05-07 11:13:25	 396 	c1252 	4353 	 161 	 10101010 	 170 	 11977208 
+2021-05-07 11:13:25	 506 	c1252 	4354 	 162 	 10101000 	 168 	 11978288 
+2021-05-07 11:13:25	 919 	c1252 	4354 	 164 	 00000000 	 0 	 11982296 
+2021-05-07 11:13:25	1073 	c1252 	4354 	 165 	 10101010 	 170 	 11983832 
+2021-05-07 11:13:26	 129 	c1252 	4355 	 166 	 10101000 	 168 	 11985920 
+2021-05-07 11:13:26	 541 	c1252 	4355 	 168 	 00000000 	 0 	 11989928 
+2021-05-07 11:13:26	 649 	c1252 	4355 	 169 	 10101010 	 170 	 11991008 
+2021-05-07 11:13:26	 813 	c1252 	4356 	 170 	 10101000 	 168 	 11992616 
+2021-05-07 11:13:27	   9 	c1252 	4356 	 171 	 10101010 	 170 	 11996072 
+2021-05-07 11:13:27	 353 	c1252 	4357 	 172 	 10101000 	 168 	 11999432 
+2021-05-07 11:13:27	 765 	c1252 	4357 	 174 	 00000000 	 0 	 12003440 
+2021-05-07 11:13:38	 755 	c1252 	4357 	 175 	 10101010 	 170 	 12127880 
+2021-05-07 11:13:38	 811 	c1252 	4358 	 176 	 10101000 	 168 	 12128432 
+2021-05-07 11:13:38	 816 	c1252 	4358 	 177 	 10101010 	 170 	 12128480 
+2021-05-07 11:13:46	 757 	c1252 	4358 	 178 	 10101000 	 168 	 12218480 
+2021-05-07 11:13:47	  13 	c1252 	4358 	 180 	 00000000 	 0 	 12222488 
+2021-05-07 11:13:50	 548 	c1252 	4358 	 181 	 10101010 	 170 	 12261704 
+2021-05-07 11:13:50	 605 	c1252 	4359 	 182 	 10101000 	 168 	 12262256 
+2021-05-07 11:13:50	1017 	c1252 	4359 	 184 	 00000000 	 0 	 12266264 
+2021-05-07 12:01:15	338 	 c1252 	 2622 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 12:52:14	840 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 13:43:14	989 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 14:34:14	840 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 15:25:14	884 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 16:16:14	843 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 17:07:14	845 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 17:58:14	844 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 18:49:14	845 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 19:40:14	846 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 20:31:14	843 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 21:22:14	848 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 22:13:14	895 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 23:04:14	851 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-07 23:55:14	853 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 00:46:14	843 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 01:37:14	845 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 02:28:14	839 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 03:19:14	837 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 04:10:14	882 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 05:01:14	829 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 05:52:14	847 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 06:43:14	846 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 07:34:14	845 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 08:25:14	847 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 09:16:14	848 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 10:07:14	851 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 10:58:14	936 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 11:49:14	839 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 12:40:14	835 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 13:31:14	837 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 14:22:14	827 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 15:13:14	840 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 16:04:14	842 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 16:55:14	889 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 17:46:14	843 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 18:37:14	843 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 19:28:14	844 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 20:19:14	836 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 21:10:14	841 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 22:01:14	840 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 22:52:14	871 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-08 23:43:14	841 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-09 00:34:14	838 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-09 01:25:14	839 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-09 02:16:14	833 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-09 03:07:14	831 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-09 03:58:14	831 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-09 04:49:14	834 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-09 05:40:14	866 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-09 06:31:14	846 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-09 07:22:14	840 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-09 08:13:14	832 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-09 09:04:14	844 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-09 09:55:14	847 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-09 10:46:14	854 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-09 11:37:14	900 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-09 12:28:14	856 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-09 13:19:14	857 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-09 14:10:14	857 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-09 15:01:14	861 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-09 15:52:14	861 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-09 16:35:58	 608 	c1252 	4359 	 185 	 10101010 	 170 	 3261992 
+2021-05-09 16:35:58	 697 	c1252 	4360 	 186 	 10101000 	 168 	 3262880 
+2021-05-09 16:35:58	1104 	c1252 	4360 	 188 	 00000000 	 0 	 3266888 
+2021-05-09 16:36:18	815 	 c1252 	 228 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-09 16:36:19	335 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-09 16:36:20	336 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-09 16:36:21	316 	 c1252 	 114 bytes to file. 
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Status(bin) 	Status(dec) 	Timer[s/12000] 
+2021-05-09 16:36:22	335 	 c1252 	 114 bytes to file. 

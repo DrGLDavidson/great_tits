@@ -1,0 +1,136 @@
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-14 17:45:05	 887 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-14 18:36:05	 753 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-14 19:27:05	 753 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-14 20:18:05	 753 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-14 21:09:05	 752 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-14 22:00:05	 751 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-14 22:51:05	 755 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-14 23:42:05	 765 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 00:33:05	 748 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 01:24:05	 748 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 02:15:05	 747 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 03:06:05	 750 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 03:57:05	 747 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 04:48:05	 747 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 05:39:05	 761 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 06:30:05	 747 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 07:21:05	 755 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 08:12:05	 803 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 09:03:05	 856 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 09:29:18	 666 	c1256 	5569 	 89 	 630 	110928 	 67151 	   1 	0 	0 	
+2021-05-15 09:29:18	 871 	c1256 	5569 	 91 	 110 	107096 	  9165 	 218 	0 	1 	0300030EFF
+2021-05-15 09:29:19	 173 	c1256 	5571 	 99 	  74 	103952 	  5203 	 143 	0 	1 	0300030EFF
+2021-05-15 09:38:47	 633 	c1256 	5577 	129 	 151 	108328 	 13713 	 346 	0 	1 	011016FD16
+2021-05-15 09:39:30	 331 	c1256 	5582 	151 	  76 	103960 	  5419 	 137 	0 	1 	011016FD16
+2021-05-15 09:40:04	1012 	c1256 	5591 	184 	  76 	104184 	  5418 	 137 	0 	1 	011016FD16
+2021-05-15 09:40:14	 390 	c1256 	5592 	190 	  76 	104144 	  5403 	 137 	0 	1 	011016FD16
+2021-05-15 09:40:16	 405 	c1256 	5593 	196 	  76 	103960 	  5419 	 137 	0 	1 	011016FD16
+2021-05-15 09:40:19	  40 	c1256 	5594 	202 	  76 	103960 	  5419 	 137 	0 	1 	011016FD16
+2021-05-15 09:40:25	 468 	c1256 	5597 	216 	  76 	104280 	  5423 	 137 	0 	1 	011016FD16
+2021-05-15 09:40:41	 951 	c1256 	5605 	247 	  76 	103976 	  5420 	 137 	0 	1 	011016FD16
+2021-05-15 09:40:45	 253 	c1256 	5606 	253 	  76 	104184 	  5418 	 137 	0 	1 	011016FD16
+2021-05-15 09:40:49	 987 	c1256 	5609 	  7 	  76 	104000 	  5421 	 137 	0 	1 	011016FD16
+2021-05-15 09:40:55	 872 	c1256 	5610 	 13 	  76 	103920 	  5417 	 137 	0 	1 	011016FD16
+2021-05-15 09:40:59	 651 	c1256 	5613 	 25 	  76 	104184 	  5418 	 137 	0 	1 	011016FD16
+2021-05-15 09:41:02	1156 	c1256 	5614 	 31 	  76 	104184 	  5418 	 137 	0 	1 	011016FD16
+2021-05-15 09:42:33	 410 	c1256 	5615 	 38 	  76 	104200 	  5419 	 137 	0 	1 	011016FD16
+2021-05-15 09:42:34	 314 	c1256 	5616 	 44 	  76 	104184 	  5418 	 137 	0 	1 	011016FD16
+2021-05-15 09:42:37	1018 	c1256 	5617 	 50 	  76 	104200 	  5419 	 137 	0 	1 	011016FD16
+2021-05-15 09:42:38	1072 	c1256 	5618 	 56 	  76 	104168 	  5417 	 137 	0 	1 	011016FD16
+2021-05-15 09:42:40	 999 	c1256 	5619 	 62 	  76 	104200 	  5419 	 137 	0 	1 	011016FD16
+2021-05-15 09:42:45	 729 	c1256 	5620 	 68 	  76 	104184 	  5418 	 137 	0 	1 	011016FD16
+2021-05-15 09:42:49	 480 	c1256 	5622 	 78 	  76 	104168 	  5417 	 137 	0 	1 	011016FD16
+2021-05-15 09:42:50	 568 	c1256 	5623 	 84 	  76 	104200 	  5419 	 137 	0 	1 	011016FD16
+2021-05-15 09:42:52	 527 	c1256 	5624 	 90 	  76 	104224 	  5420 	 137 	0 	1 	011016FD16
+2021-05-15 09:42:57	 983 	c1256 	5625 	 96 	  76 	103960 	  5419 	 137 	0 	1 	011016FD16
+2021-05-15 09:42:59	 461 	c1256 	5626 	102 	  76 	104224 	  5420 	 137 	0 	1 	011016FD16
+2021-05-15 09:43:03	 294 	c1256 	5627 	108 	  76 	104144 	  5416 	 137 	0 	1 	011016FD16
+2021-05-15 09:43:04	 250 	c1256 	5628 	112 	  76 	104224 	  5420 	 137 	0 	1 	011016FD16
+2021-05-15 09:54:08	1116 	c1256						 2704 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 10:00:44	 326 	c1256 	5630 	125 	  76 	104008 	  5409 	 137 	0 	1 	011016FD16
+2021-05-15 10:00:49	 782 	c1256 	5631 	131 	  76 	103960 	  5419 	 135 	0 	1 	01103F5E04
+2021-05-15 10:00:50	1147 	c1256 	5632 	135 	  76 	103960 	  5419 	 135 	0 	1 	01103F5E04
+2021-05-15 10:00:54	 850 	c1256 	5633 	141 	  76 	104000 	  5421 	 135 	0 	1 	01103F5E04
+2021-05-15 10:01:06	1027 	c1256 	5634 	151 	  76 	104144 	  5403 	 135 	0 	1 	01103F5E04
+2021-05-15 10:02:10	 295 	c1256 	5635 	157 	  76 	104488 	  5421 	 135 	0 	1 	01103F5E04
+2021-05-15 10:02:12	 373 	c1256 	5636 	163 	  76 	104224 	  5420 	 135 	0 	1 	01103F5E04
+2021-05-15 10:02:23	 961 	c1256 	5637 	169 	  76 	104176 	  5405 	 135 	0 	1 	01103F5E04
+2021-05-15 10:03:34	 307 	c1256 	5638 	175 	  76 	104200 	  5419 	 135 	0 	1 	01103F5E04
+2021-05-15 10:03:35	 672 	c1256 	5639 	181 	  76 	104200 	  5419 	 135 	0 	1 	01103F5E04
+2021-05-15 10:03:42	 731 	c1256 	5640 	187 	  76 	104104 	  5414 	 135 	0 	1 	01103F5E04
+2021-05-15 10:03:43	 392 	c1256 	5640 	192 	   4 	     0 	     0 	   1 	0 	0 	
+2021-05-15 10:11:20	 150 	c1256 	5641 	197 	 114 	107104 	  9571 	 240 	0 	1 	011016FD16
+2021-05-15 10:11:21	 555 	c1256 	5642 	202 	  76 	104000 	  5421 	 137 	0 	1 	011016FD16
+2021-05-15 10:11:35	 693 	c1256 	5643 	211 	  76 	104264 	  5422 	 137 	0 	1 	011016FD16
+2021-05-15 10:11:43	 879 	c1256 	5645 	221 	  76 	104200 	  5419 	 135 	0 	1 	01103F5E04
+2021-05-15 10:11:51	 929 	c1256 	5646 	230 	  76 	104184 	  5418 	 135 	0 	1 	01103F5E04
+2021-05-15 10:12:12	  62 	c1256 	5647 	236 	  76 	104240 	  5421 	 137 	0 	1 	011016FD16
+2021-05-15 10:12:12	 865 	c1256 	5648 	242 	  76 	104200 	  5419 	 137 	0 	1 	011016FD16
+2021-05-15 10:12:28	 426 	c1256 	5649 	252 	  76 	104224 	  5420 	 135 	0 	1 	01103F5E04
+2021-05-15 10:12:35	 636 	c1256 	5651 	  7 	  75 	104328 	  5298 	 135 	0 	1 	011016FD16
+2021-05-15 10:12:38	 378 	c1256 	5652 	 13 	  76 	104408 	  5417 	 135 	0 	1 	01103F5E04
+2021-05-15 10:13:13	 719 	c1256 	5653 	 19 	  76 	104320 	  5425 	 137 	0 	1 	011016FD16
+2021-05-15 10:13:15	1089 	c1256 	5654 	 25 	  76 	104264 	  5422 	 137 	0 	1 	011016FD16
+2021-05-15 10:13:43	 941 	c1256 	5655 	 33 	  84 	104944 	  6239 	 157 	0 	1 	011016FD16
+2021-05-15 10:16:16	 230 	c1256 	5657 	 44 	  76 	104200 	  5419 	 137 	0 	1 	011016FD16
+2021-05-15 10:16:16	 975 	c1256 	5658 	 49 	  76 	104224 	  5420 	 137 	0 	1 	011016FD16
+2021-05-15 10:23:19	 821 	c1256 	5659 	 56 	  76 	104264 	  5422 	 135 	0 	1 	01103F5E04
+2021-05-15 10:23:28	 590 	c1256 	5660 	 62 	 150 	108616 	 13684 	 247 	0 	1 	01103F5E04
+2021-05-15 10:26:17	 510 	c1256 	5663 	 72 	  76 	104200 	  5419 	 137 	0 	1 	011016FD16
+2021-05-15 10:26:21	 999 	c1256 	5664 	 77 	  76 	104168 	  5417 	 135 	0 	1 	01103F5E04
+2021-05-15 10:26:29	 925 	c1256 	5665 	 87 	 151 	108528 	 13725 	 341 	0 	1 	01103F5E04
+2021-05-15 10:27:25	 111 	c1256 	5667 	 95 	  76 	104224 	  5420 	 135 	0 	1 	01103F5E04
+2021-05-15 10:27:31	 800 	c1256 	5668 	100 	  76 	104368 	  5402 	 135 	0 	1 	01103F5E04
+2021-05-15 10:27:32	 658 	c1256 	5668 	106 	   9 	     0 	     0 	   1 	0 	0 	
+2021-05-15 10:30:12	 823 	c1256 	5669 	110 	  91 	105904 	  7072 	 196 	0 	1 	0300030EFF
+2021-05-15 10:30:44	 534 	c1256 	5670 	121 	 444 	110808 	 46479 	   1 	0 	0 	
+2021-05-15 10:32:09	 368 	c1256 	5674 	137 	 288 	110464 	 29140 	   0 	0 	0 	
+2021-05-15 10:32:10	 631 	c1256 	5677 	149 	  21 	     0 	     0 	   0 	0 	0 	
+2021-05-15 10:45:12	 200 	c1256						 3544 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 11:36:12	  87 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 12:27:15	  49 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 13:18:14	 768 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 14:09:14	 769 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 15:00:14	 767 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 15:51:14	 773 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 16:42:14	 856 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 17:33:14	 851 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 18:24:14	1010 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 19:15:14	 850 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 19:22:33	 400 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 19:22:34	 260 	c1256						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2021-05-15 19:22:35	 266 	c1256						 162 bytes to file.

@@ -1,0 +1,186 @@
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-10 13:07:18	 914 	c1272 	1349 	 45 	  74 	124728 	  6197 	 156 	0 	1 	0300024FEF
+2019-05-10 13:07:23	 868 	c1272 	1350 	 53 	   4 	     0 	     0 	   1 	0 	0 	
+2019-05-10 13:55:38	 798 	c1272						 328 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-10 14:46:38	 758 	c1272						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-10 15:37:38	 748 	c1272						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-10 16:28:38	 834 	c1272						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-10 17:19:38	 784 	c1272						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-10 18:10:38	 757 	c1272						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-10 19:01:38	 748 	c1272						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-10 19:52:38	 764 	c1272						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-10 20:43:38	 756 	c1272						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-10 21:34:38	 759 	c1272						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-10 22:25:38	 753 	c1272						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-10 23:16:39	  57 	c1272						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-10 23:16:41	 902 	c1272 	1353 	  0 	3498 	126320 	438864 	 496 	0 	0 	
+2019-05-11 00:07:39	  70 	c1272						 240 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-11 00:07:41	 952 	c1272 	1353 	  0 	3542 	126296 	444261 	 507 	0 	0 	
+2019-05-11 00:58:38	 755 	c1272						 240 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-11 01:49:38	 762 	c1272						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-11 02:40:39	  50 	c1272						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-11 02:40:41	 902 	c1272 	1353 	  0 	3498 	126152 	438260 	 495 	0 	0 	
+2019-05-11 03:31:39	  69 	c1272						 240 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-11 03:31:41	 952 	c1272 	1353 	  0 	3542 	126128 	443666 	 534 	0 	0 	
+2019-05-11 04:22:39	  60 	c1272						 240 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-11 04:22:41	 902 	c1272 	1353 	  0 	3498 	126096 	438062 	 496 	0 	0 	
+2019-05-11 05:13:39	  65 	c1272						 240 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-11 05:13:41	 952 	c1272 	1353 	  0 	3544 	126072 	443781 	 502 	0 	0 	
+2019-05-11 06:04:39	  63 	c1272						 240 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-11 06:04:41	 952 	c1272 	1353 	  0 	3544 	126056 	443672 	 479 	0 	0 	
+2019-05-11 06:55:39	  67 	c1272						 240 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-11 06:55:41	 952 	c1272 	1353 	  0 	3541 	126040 	443296 	 510 	0 	0 	
+2019-05-11 07:46:39	  63 	c1272						 240 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-11 07:46:41	 952 	c1272 	1353 	  0 	3547 	126032 	443963 	 532 	0 	0 	
+2019-05-11 08:37:39	  73 	c1272						 240 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-11 08:37:41	 952 	c1272 	1353 	  0 	3550 	126032 	444313 	 532 	0 	0 	
+2019-05-11 09:28:39	  68 	c1272						 240 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-11 09:28:41	 952 	c1272 	1353 	  0 	3541 	126064 	443348 	 519 	0 	0 	
+2019-05-11 10:19:39	 358 	c1272						 240 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-11 10:19:42	 150 	c1272 	1361 	  0 	3767 	126160 	472161 	 601 	0 	0 	
+2019-05-11 11:10:39	 688 	c1272						 240 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-11 11:10:42	 501 	c1272 	1377 	  0 	4107 	126312 	515712 	 710 	0 	0 	
+2019-05-11 12:01:39	 645 	c1272						 240 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-11 12:26:26	 790 	c1272 	1411 	 37 	  61 	124624 	  4640 	 118 	0 	1 	0300024FEF
+2019-05-11 12:29:49	 727 	c1272 	1415 	 57 	  68 	124880 	  5427 	 133 	0 	1 	011016CADA
+2019-05-11 12:29:53	 431 	c1272 	1418 	 71 	  68 	124880 	  5427 	 133 	0 	1 	011016CADA
+2019-05-11 12:29:56	 830 	c1272 	1422 	 87 	  68 	124856 	  5426 	 133 	0 	1 	011016CADA
+2019-05-11 12:29:58	 133 	c1272 	1423 	 93 	  68 	124760 	  5422 	 133 	0 	1 	011016CADA
+2019-05-11 12:30:11	 399 	c1272 	1424 	103 	  68 	124832 	  5425 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:30:12	 864 	c1272 	1431 	121 	 100 	125304 	  9545 	 248 	0 	1 	01103F3F0B
+2019-05-11 12:30:16	 314 	c1272 	1433 	131 	  68 	124944 	  5430 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:30:22	 288 	c1272 	1435 	143 	  68 	124784 	  5423 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:30:28	 802 	c1272 	1436 	149 	  67 	124696 	  5404 	 133 	0 	1 	011016CADA
+2019-05-11 12:31:06	 930 	c1272 	1438 	159 	  68 	124856 	  5426 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:31:50	 166 	c1272 	1440 	173 	  68 	124856 	  5426 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:31:57	 771 	c1272 	1443 	187 	  68 	124760 	  5422 	 133 	0 	1 	011016CADA
+2019-05-11 12:31:58	 916 	c1272 	1444 	191 	  68 	124760 	  5422 	 133 	0 	1 	011016CADA
+2019-05-11 12:32:01	 620 	c1272 	1445 	197 	  68 	124784 	  5423 	 133 	0 	1 	011016CADA
+2019-05-11 12:32:12	 476 	c1272 	1446 	207 	  67 	124768 	  5407 	 133 	0 	1 	011016CADA
+2019-05-11 12:32:42	 200 	c1272 	1449 	222 	  68 	124928 	  5429 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:32:53	 986 	c1272 	1451 	234 	  67 	124952 	  5415 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:33:22	 148 	c1272 	1452 	244 	  68 	124808 	  5424 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:33:24	 978 	c1272 	1453 	252 	  68 	124736 	  5421 	 133 	0 	1 	011016CADA
+2019-05-11 12:33:38	 779 	c1272 	1455 	  5 	  68 	124808 	  5424 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:33:38	 945 	c1272 	1455 	  9 	  66 	124912 	  5215 	 135 	0 	1 	01103F3F0B
+2019-05-11 12:33:39	 532 	c1272 	1456 	 15 	  67 	124840 	  5410 	 133 	0 	1 	011016CADA
+2019-05-11 12:34:18	  77 	c1272 	1457 	 21 	  68 	124760 	  5422 	 133 	0 	1 	011016CADA
+2019-05-11 12:34:19	 426 	c1272 	1458 	 25 	  68 	124808 	  5424 	 133 	0 	1 	011016CADA
+2019-05-11 12:34:40	 397 	c1272 	1459 	 34 	  68 	124760 	  5422 	 133 	0 	1 	011016CADA
+2019-05-11 12:34:44	 746 	c1272 	1460 	 43 	  68 	124784 	  5423 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:35:06	 428 	c1272 	1461 	 52 	  68 	124760 	  5422 	 133 	0 	1 	011016CADA
+2019-05-11 12:35:07	 521 	c1272 	1463 	 60 	  68 	124856 	  5426 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:35:16	 236 	c1272 	1465 	 68 	  68 	124928 	  5429 	 133 	0 	1 	011016CADA
+2019-05-11 12:35:42	 371 	c1272 	1466 	 74 	  68 	124760 	  5422 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:35:49	 832 	c1272 	1467 	 80 	  68 	124808 	  5424 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:36:24	 346 	c1272 	1468 	 88 	  68 	124808 	  5424 	 133 	0 	1 	011016CADA
+2019-05-11 12:36:38	 968 	c1272 	1469 	 99 	  67 	124816 	  5409 	 133 	0 	1 	011016CADA
+2019-05-11 12:37:20	 682 	c1272 	1470 	109 	  68 	124832 	  5425 	 140 	0 	1 	01103F3F0B
+2019-05-11 12:37:21	  15 	c1272 	1470 	114 	  16 	     0 	     0 	   1 	0 	0 	
+2019-05-11 12:37:31	 127 	c1272 	1471 	130 	 134 	125336 	 13709 	 351 	0 	1 	01103F3F0B
+2019-05-11 12:38:48	   5 	c1272 	1472 	136 	  68 	124736 	  5421 	 133 	0 	1 	011016CADA
+2019-05-11 12:39:02	 988 	c1272 	1474 	151 	  67 	124816 	  5409 	 133 	0 	1 	011016CADA
+2019-05-11 12:39:17	 275 	c1272 	1475 	159 	  67 	124936 	  5399 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:39:35	 977 	c1272 	1476 	171 	  67 	125088 	  5421 	 133 	0 	1 	011016CADA
+2019-05-11 12:39:39	 749 	c1272 	1477 	184 	  67 	124904 	  5413 	 133 	0 	1 	011016CADA
+2019-05-11 12:40:42	 363 	c1272 	1478 	190 	  68 	124736 	  5421 	 133 	0 	1 	011016CADA
+2019-05-11 12:40:44	 675 	c1272 	1479 	198 	  67 	124768 	  5407 	 133 	0 	1 	011016CADA
+2019-05-11 12:41:19	 670 	c1272 	1480 	206 	  68 	124760 	  5422 	 133 	0 	1 	011016CADA
+2019-05-11 12:41:23	 157 	c1272 	1481 	215 	 137 	125368 	 14126 	 169 	0 	1 	01103F3F0B
+2019-05-11 12:41:45	 112 	c1272 	1483 	223 	  67 	124904 	  5413 	 133 	0 	1 	011016CADA
+2019-05-11 12:42:14	 638 	c1272 	1484 	231 	  68 	124880 	  5427 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:42:22	 604 	c1272 	1485 	241 	  68 	124720 	  5420 	 133 	0 	1 	011016CADA
+2019-05-11 12:42:28	 641 	c1272 	1486 	249 	  67 	125000 	  5417 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:42:40	 807 	c1272 	1487 	255 	  67 	124880 	  5412 	 133 	0 	1 	011016CADA
+2019-05-11 12:42:50	 874 	c1272						 4640 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-11 12:45:16	 612 	c1272 	1488 	  5 	  68 	124784 	  5423 	 133 	0 	1 	011016CADA
+2019-05-11 12:45:20	 302 	c1272 	1489 	 13 	  67 	124928 	  5414 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:45:29	  74 	c1272 	1490 	 21 	  68 	124968 	  5431 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:45:41	 631 	c1272 	1491 	 27 	  67 	124952 	  5415 	 133 	0 	1 	011016CADA
+2019-05-11 12:46:16	 918 	c1272 	1492 	 35 	  68 	124928 	  5429 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:46:23	 130 	c1272 	1493 	 45 	  68 	124968 	  5431 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:47:16	 120 	c1272 	1494 	 53 	  68 	124832 	  5425 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:47:36	 305 	c1272 	1495 	 63 	 101 	125176 	  9566 	 247 	0 	1 	01103F3F0B
+2019-05-11 12:48:19	1011 	c1272 	1496 	 69 	  68 	124856 	  5426 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:48:20	 438 	c1272 	1496 	 75 	   9 	     0 	     0 	   1 	0 	0 	
+2019-05-11 12:48:30	1010 	c1272 	1497 	 81 	  67 	125000 	  5417 	 140 	0 	1 	01103F3F0B
+2019-05-11 12:51:34	 235 	c1272 	1498 	 87 	  68 	124856 	  5426 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:52:05	 357 	c1272 	1499 	 98 	  67 	124952 	  5415 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:52:45	 717 	c1272 	1500 	103 	  68 	124832 	  5425 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:52:59	 668 	c1272 	1502 	119 	  26 	102712 	   163 	   6 	0 	0 	
+2019-05-11 12:52:59	 852 	c1272 	1503 	121 	  68 	124880 	  5427 	 142 	0 	1 	01103F3F0B
+2019-05-11 12:54:30	 130 	c1272 	1505 	129 	  68 	124856 	  5426 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:54:34	 285 	c1272 	1507 	139 	  67 	124744 	  5406 	 133 	0 	1 	011016CADA
+2019-05-11 12:54:36	 124 	c1272 	1508 	147 	  68 	124856 	  5426 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:54:46	1021 	c1272 	1509 	153 	  68 	124832 	  5425 	 133 	0 	1 	011016CADA
+2019-05-11 12:55:15	 639 	c1272 	1510 	159 	  68 	124832 	  5425 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:55:22	 398 	c1272 	1511 	168 	  68 	124968 	  5431 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:56:00	  54 	c1272 	1512 	174 	  67 	125008 	  5387 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:56:10	 345 	c1272 	1514 	184 	  68 	124944 	  5430 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:56:22	 409 	c1272 	1515 	192 	  68 	124808 	  5424 	 133 	0 	1 	011016CADA
+2019-05-11 12:56:30	 237 	c1272 	1516 	202 	  67 	124864 	  5411 	 133 	0 	1 	011016CADA
+2019-05-11 12:58:27	 210 	c1272 	1517 	208 	  68 	124784 	  5423 	 133 	0 	1 	011016CADA
+2019-05-11 12:58:36	 885 	c1272 	1518 	216 	  67 	124792 	  5408 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:58:44	 409 	c1272 	1520 	226 	  67 	124792 	  5408 	 133 	0 	1 	011016CADA
+2019-05-11 12:58:45	 187 	c1272 	1521 	230 	  67 	124880 	  5412 	 141 	0 	1 	01103F3F0B
+2019-05-11 12:58:57	 697 	c1272 	1522 	236 	  68 	124832 	  5425 	 141 	0 	1 	01103F3F0B
+2019-05-11 13:00:15	 491 	c1272 	1523 	244 	  68 	124808 	  5424 	 133 	0 	1 	011016CADA
+2019-05-11 13:00:18	 302 	c1272 	1524 	252 	  67 	124904 	  5413 	 133 	0 	1 	011016CADA
+2019-05-11 13:01:20	 177 	c1272 	1525 	  4 	  68 	124736 	  5421 	 133 	0 	1 	011016CADA
+2019-05-11 13:01:23	 813 	c1272 	1526 	 14 	  68 	124832 	  5425 	 141 	0 	1 	01103F3F0B
+2019-05-11 13:01:35	 369 	c1272 	1527 	 22 	  67 	124816 	  5409 	 133 	0 	1 	011016CADA
+2019-05-11 13:02:05	 585 	c1272 	1528 	 31 	  68 	124880 	  5427 	 141 	0 	1 	01103F3F0B
+2019-05-11 13:02:17	 715 	c1272 	1530 	 41 	  67 	125024 	  5418 	 141 	0 	1 	01103F3F0B
+2019-05-11 13:02:50	  59 	c1272 	1531 	 50 	  67 	125048 	  5419 	 133 	0 	1 	011016CADA
+2019-05-11 13:03:17	 585 	c1272 	1532 	 63 	  67 	124928 	  5414 	 133 	0 	1 	011016CADA
+2019-05-11 13:03:28	 804 	c1272 	1533 	 70 	  68 	124856 	  5426 	 141 	0 	1 	01103F3F0B
+2019-05-11 13:03:53	 469 	c1272 	1534 	 84 	  67 	124952 	  5415 	 141 	0 	1 	01103F3F0B
+2019-05-11 13:04:22	 191 	c1272 	1535 	 90 	  68 	124880 	  5427 	 141 	0 	1 	01103F3F0B
+2019-05-11 13:07:10	 370 	c1272 	1536 	101 	  68 	124736 	  5421 	 141 	0 	1 	01103F3F0B
+2019-05-11 13:07:16	 805 	c1272 	1537 	107 	  68 	124760 	  5422 	 133 	0 	1 	011016CADA
+2019-05-11 13:07:32	 113 	c1272 	1538 	117 	 101 	125256 	  9572 	 237 	0 	1 	011016CADA
+2019-05-11 13:08:46	 135 	c1272 	1539 	130 	  74 	125016 	  6196 	 157 	0 	1 	0300024FEF
+2019-05-11 13:33:47	 151 	c1272						 4278 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-11 13:33:49	1002 	c1272 	1540 	  0 	7598 	126632 	959174 	1889 	0 	0 	
+2019-05-11 14:24:46	 783 	c1272						 240 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-11 15:15:46	 760 	c1272						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-11 15:53:41	 709 	c1272						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-11 15:53:42	 270 	c1272						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-11 15:53:43	 265 	c1272						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-11 15:53:44	 272 	c1272						 162 bytes to file.
+Date 	Hmsec 	CounterID 	EventID 	CounterMsgID 	Dur[ms] 	Freq[Hz] 	RFCycles 	RFID_Edges 	RFID_Tag_Reads 	TagType 	TagID_1 	TagID_2[hex] 
+2019-05-11 15:53:45	 270 	c1272						 162 bytes to file.
