@@ -8,14 +8,22 @@ library(dplyr)#
 
 setwd("~/GitHub/great_tits/data")# setting the working directory
 
-data<-read.csv(file = "NestRecordsMadingley2019.csv", header = TRUE)
-names(data)
+data_2020<-read.csv(file = "NestRecordsMadingley2020.csv", header = TRUE)
+glimpse(data_2020)
 
 #🧽 CLEANING DATA ---- 
 
-nest_2020<-data_2%>%
-  select(site , boxNumber, site.boxNumber, Species, maleID, femaleID, pitIDM, pitIDF, numberFledged)# making a new df
+nest_2020<-data_2020%>%
+  select(site , boxNumber, site.boxNumber, Species, Antenna.PIT.tag.ID.1, Antenna.Pit.tag.ID.2, numberFledged)# making a new df
+#there is no data for male and female will find later 
 head(nest_2020)#checking the first 6 lines 
+
+#_______________________________ got to here :)))))))))
+
+
+
+
+
 
 nest_2020<- janitor::clean_names(nest_2019)# cleaning column names, snake_case
 #nest_2019<- nest_2019 %>% mutate_all(na_if,"")#making all of the blanks into NA's
