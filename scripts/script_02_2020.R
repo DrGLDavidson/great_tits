@@ -18,18 +18,10 @@ nest_2020<-data_2020%>%
 #there is no data for male and female will find later 
 head(nest_2020)#checking the first 6 lines 
 
-#_______________________________ got to here :)))))))))
-
-
-
-
-
-
-nest_2020<- janitor::clean_names(nest_2019)# cleaning column names, snake_case
+nest_2020<- janitor::clean_names(nest_2020)# cleaning column names, snake_case
 #nest_2019<- nest_2019 %>% mutate_all(na_if,"")#making all of the blanks into NA's
 
-
-nest_2020<-cbind(nest_2020, year='2019')#add a new column named "year" with information about what year it comes from 
+nest_2020<-cbind(nest_2020, year='2020')#add a new column named "year" with information about what year it comes from 
 names(nest_2020)#checking the headings 
 head(nest_2020)#checking the first 6 lines 
 
@@ -38,7 +30,7 @@ nest_2020_grt<-nest_2020%>%
 
 nest_2020_grt%>% 
   is.na() %>% 
-  sum()#2 NAs    
+  sum()#25 NA's - removed ??   
 
 PITIDM<-unique(nest_2020_grt$pitIDM)# not sure what this does 
 PITIDM<-as.data.frame(PITIDM)# not sure what this does 
