@@ -30,6 +30,7 @@ eyes_102_2019_f<-eyes_102_2019_f[!grepl('TagID_1', eyes_102_2019_f$RFID),]# remo
 
  
 eyes_102_2019_f<-eyes_102_2019_f[!eyes_102_2019_f$RFID=="",] #remove blank rows
+head(eyes_102_2019_f)
 
 # 🌎 Data exploration ----
 
@@ -39,8 +40,8 @@ uniqueID #only 3 different individuals
 
 #"0300024FEF" -> is the start and stop indicator 
 
-referenceTag<-eyes_102_2019_f[eyes_102_2019_f$RFID == '0300030EFF',]#flituring out 0300030EFF
-referenceTag # NOT SURE WHATS THIS DID?
+referenceTag<-eyes_102_2019_f[eyes_102_2019_f$RFID == '0300024FEF',]#flituring out 0300030EFF
+referenceTag # can see when the indicator was used
 
 
 eyes_102_2019_f<-eyes_102_2019_f%>%
@@ -49,13 +50,17 @@ class(eyes_102_2019_f$Date) # chaneing the data format to POSIXct class
 
 #⏰ ----
 
-eyes_102_2019_t<-subset(eyes_102_2019_f,Date <= as.POSIXct('2019-05-03 07:56:01', tz="UTC")) # do you do it from the indictor one or the first bird??
+eyes_102_2019_t<-subset(eyes_102_2019_f,Date >= as.POSIXct('2019-05-03 07:56:01', tz="UTC")) # do from last indicator
 
-eyes_102_2019_t<-subset(eyes_102_2019_f,Date >= as.POSIXct('2019-05-03 08:45:11', tz="UTC")) 
+eyes_102_2019_t<-subset(eyes_102_2019_f,Date <= as.POSIXct('2019-05-03 08:45:11', tz="UTC")) # make sure 45 mins
 
+totalVisits1hr<-eyes_102_2019_t%>%
+  count(RFID, sort = TRUE) 
 
-
-
+totalVisits1hr<-cbind(totalVisits1hr, nestbox='mw102')
+totalVisits1hr<-cbind(totalVisits1hr, year='2019')
+head(totalVisits1hr)
+write.csv(totalVisits1hr,file="totalVisits45m_mw102_2019.csv")
 
 #The reference tag is 0300024FEF. The experimental time should be restricted to 45 minutes from the last time the reference tag was read. Following the GIT hub tutorial, you should be able to do this with the new data. 
 
