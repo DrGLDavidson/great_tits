@@ -1,6 +1,7 @@
 # 📦 PACKAGES ----
 library(tidyverse) # a range of helpful packages
 library(janitor)# helps to format the data
+library(lubridate)
 
 
 
@@ -23,7 +24,7 @@ names(eyes_102_2019_f)[names(eyes_102_2019_f) == "TagID_1"] <- "RFID" # renaming
 
 
 uniqueIDs<-unique(eyes_102_2019_f$RFID)
-uniqueIDs #???
+uniqueIDs #lets you see the different ids in the df
 
 eyes_102_2019_f<-eyes_102_2019_f[!grepl('TagID_1', eyes_102_2019_f$RFID),]# removing tagid one 
 
@@ -46,13 +47,52 @@ referenceTag # can see when the indicator was used
 
 eyes_102_2019_f<-eyes_102_2019_f%>%
   mutate(Date=ymd_hms(Date))
-class(eyes_102_2019_f$Date) # chaneing the data format to POSIXct class
+class(eyes_102_2019_f$Date) # changing the data format to POSIXct class
 
-#⏰ ----
+#👀🐤 Latency ----
+
+#extracting the first occurence of each RFID tag
+latency<-eyes_102_2019_f %>% 
+  arrange(Date) %>% 
+  group_by(RFID) %>% 
+  slice(1) %>% # makes the data set and arrages it
+  ungroup()
+
+#df with all of the first occurances of tags
+referencetag<-eyes_102_2019_f[eyes_102_2019_f$RFID == '0300024FEF',]
+referencetag# checking 
+
+
+eyes_102_2019_f.2<-slice(referencetag, 2)# making a 2nd row
+eyes_102_2019_f.2
+
+
+# removing 0300024FEF from the df latency + bind eye_102_2019_f.2 to latency
+latency<-latency[-c(1),]
+latency # not sure if this works 
+
+latency2<-bind_rows(eyes_102_2019_f.2,latency)
+names(latency)
+# date is the first column 
+
+#create column latency (sub) 
+
+latency3<-latency2 %>% 
+  mutate(latency = Date - Date [row_number()==1])# - to find lat
+
+latency4<-eyes_102_2019_f%>%
+  arrange(Date)%>%
+  mutate(latency = Date - Date[row_number()==2])%>%
+  group_by(RFID)%>%
+  slice(1)%>%
+  ungroup()
+
+
+#⏰  45mins----
 
 eyes_102_2019_t<-subset(eyes_102_2019_f,Date >= as.POSIXct('2019-05-03 07:56:01', tz="UTC")) # do from last indicator
 
-eyes_102_2019_t<-subset(eyes_102_2019_f,Date <= as.POSIXct('2019-05-03 08:45:11', tz="UTC")) # make sure 45 mins
+eyes_102_2019_t<-subset(eyes_102_2019_f,Date <= as.POSIXct('2019-05-03 08:41:01', tz="UTC")) # make sure 45 mins
 
 totalVisits1hr<-eyes_102_2019_t%>%
   count(RFID, sort = TRUE) 
@@ -66,4 +106,12 @@ write.csv(totalVisits1hr,file="totalVisits45m_mw102_2019.csv")
 
 
 
+# test -----
+
+eyes_102_2019_t.2->duration(45.0, "minute")
+
+eyes_102_2019_t.2<-subset(eyes_102_2019_f,Date >= as.POSIXct('2019-05-03 07:56:01', tz="UTC"))  # do from last indicator
+eyes_102_2019_f.2->make_difftime(minute = 45.0)
+
+# end -----
 

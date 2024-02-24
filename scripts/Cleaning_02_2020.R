@@ -32,5 +32,8 @@ nest_2020_grt%>%
   is.na() %>% 
   sum()#25 NA's - removed ??   
 
+write.csv(nest_2020_grt,file="nest_id_from_2020.csv")
+
 PITIDM<-unique(nest_2020_grt$pitIDM)# not sure what this does 
 PITIDM<-as.data.frame(PITIDM)# not sure what this does 
+

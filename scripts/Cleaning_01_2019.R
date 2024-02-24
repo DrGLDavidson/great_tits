@@ -34,6 +34,8 @@ nest_2019_grt%>%
 
 PITIDM<-unique(nest_2019_grt$pitIDM)# not sure what this does 
 PITIDM<-as.data.frame(PITIDM)# not sure what this does 
+# see in the nest box, how many different tags there are 
+# need to know the ref tag 
 
 
 
