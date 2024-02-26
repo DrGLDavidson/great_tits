@@ -32,6 +32,9 @@ nest_2019_grt%>%
   is.na() %>% 
   sum()#2 NAs    
 
+names(nest_2019_grt)[names(nest_2019_grt) == "pit_idf"] <- "antenna_pit_tag_id_1" # renaming RFID 
+
+names(nest_2019_grt)[names(nest_2019_grt) == "pit_idm"] <- "antenna_pit_tag_id_2" # renaming RFID 
 
 write.csv(nest_2019_grt,file="nest_id_from_2019.csv")
 

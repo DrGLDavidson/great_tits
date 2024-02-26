@@ -37,7 +37,7 @@ write.csv(nest_2020_grt,file="nest_id_from_2020.csv")
 glimpse(nest_2020_grt)
 
 
-PITIDM_2020<-unique(nest_2020_grt$pitIDM)# not sure what this does 
+PITIDM_2020<-unique(nest_2020_grt$pit_idm)# not sure what this does 
 PITIDM_2020<-as.data.frame(PITIDM_2020)# not sure what this does 
 # see in the nest box, how many different tags there are 
 # need to know the ref tag 

@@ -34,8 +34,21 @@ nest_2020_grt%>%
 
 write.csv(nest_2021_grt,file="nest_id_from_2021.csv")
 
-PITIDM_2021<-unique(nest_2021_grt$pitIDM)# not sure what this does 
+PITIDM_2021<-unique(nest_2021_grt$pit_idm)# not sure what this does 
 PITIDM_2021<-as.data.frame(PITIDM_2021)# not sure what this does 
 
 # see in the nest box, how many different tags there are 
 # need to know the ref tag 
+
+# 🎰 Merge all 3 data frames ----
+
+setwd("~/GitHub/great_tits/scripts")# setting the working directory
+
+source("~/GitHub/great_tits/scripts/Cleaning_01_2019.R")
+source("~/GitHub/great_tits/scripts/Cleaning_02_2020.R")
+
+# merge two data frames by ID  stuck -----
+total <- merge(data "nest_2021_grt",data "nest_2019_grt",data "nest_2020_grt", by="pit_idm")
+
+joined_df <- merge(nest_2019_grt, nest_2020_grt, by.x = "antenna_pit_id_1", 
+                   by.y = "antenna_pit_id_1", all.x = TRUE, all.y = FALSE)

@@ -1,4 +1,4 @@
-"","site","box_number","site_box_number","species","male_id","female_id","pit_idm","pit_idf","number_fledged","year"
+"","site","box_number","site_box_number","species","male_id","female_id","antenna_pit_tag_id_2","antenna_pit_tag_id_1","number_fledged","year"
 "1","MW","6","MW6","GRETI","Z066203","Z066324","01101738AB","011016FB0C","6","2019"
 "2","MW","7","MW7","GRETI","","","011016C265","01101737FA","na","2019"
 "3","MW","8","MW8","GRETI","Z066268","unk","011016FE22","unk","0","2019"
