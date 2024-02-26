@@ -14,7 +14,7 @@ glimpse(data_2021)
 #🧽 CLEANING DATA ---- 
 
 nest_2021<-data_2021%>%
-  select(site , boxNumber, site.boxNumber, Species, Antenna.PIT.tag.ID.1, Antenna.Pit.tag.ID.2, numberFledged)# making a new df
+  select(site , boxNumber, site.boxNumber, Species, Antenna.PIT.tag.ID.1, Antenna.Pit.tag.ID.2,BTO.ring.derived.from.Antenna.ID.1, BTO.ring.derived.from.Antenna.ID.2, Female.Ring.number.from.trapping, Male.ring.number.from.trapping, numberFledged)# making a new df
 #there is no data for male and female will find later 
 head(nest_2021)#checking the first 6 lines 
 
@@ -32,5 +32,10 @@ nest_2020_grt%>%
   is.na() %>% 
   sum()#25 NA's removed ??   
 
-PITIDM<-unique(nest_2021_grt$pitIDM)# not sure what this does 
-PITIDM<-as.data.frame(PITIDM)# not sure what this does 
+write.csv(nest_2021_grt,file="nest_id_from_2021.csv")
+
+PITIDM_2021<-unique(nest_2021_grt$pitIDM)# not sure what this does 
+PITIDM_2021<-as.data.frame(PITIDM_2021)# not sure what this does 
+
+# see in the nest box, how many different tags there are 
+# need to know the ref tag 

@@ -32,11 +32,14 @@ nest_2019_grt%>%
   is.na() %>% 
   sum()#2 NAs    
 
-PITIDM<-unique(nest_2019_grt$pitIDM)# not sure what this does 
-PITIDM<-as.data.frame(PITIDM)# not sure what this does 
+
+write.csv(nest_2019_grt,file="nest_id_from_2019.csv")
+
+pit_idm_2019<-unique(nest_2019_grt$pit_idm)
+pit_idm_2019<-as.data.frame(pit_idm_2019)
 # see in the nest box, how many different tags there are 
 # need to know the ref tag 
 
-
+glimpse(nest_2019_grt)
 
 
