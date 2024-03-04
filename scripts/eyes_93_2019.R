@@ -39,11 +39,11 @@ head(eyes_93_2019_f)
 
 uniqueID<- unique(eyes_93_2019_f$RFID)
 uniqueID #only 3 different individuals
-#"0300030EFF" "01101715AF" "011016E3A5" 
+#"0300024FEF" "01101750E1"
 
 #"0300024FEF", "0300030EFF" -> is the start and stop indicator 
 
-referencetag<-eyes_93_2019_f[eyes_93_2019_f$RFID == '0300030EFF',]#flituring out 0300030EFF
+referencetag<-eyes_93_2019_f[eyes_93_2019_f$RFID == '0300024FEF',]#flituring out 0300030EFF
 referencetag # can see when the indicator was used
 
 
@@ -61,7 +61,7 @@ latency<-eyes_93_2019_f %>%
   ungroup()
 
 #df with all of the first occurances of tags
-referencetag<-eyes_93_2019_f[eyes_93_2019_f$RFID == '0300030EFF',]
+referencetag<-eyes_93_2019_f[eyes_93_2019_f$RFID == '0300024FEF',]
 referencetag# checking 
 
 
@@ -91,7 +91,7 @@ latency4<-eyes_93_2019_f%>%
 
 
 #⏰  45mins----
-
+# multiples 
 
 eyes_93_2019_t<-subset(eyes_93_2019_f,Date >= as.POSIXct('2019-05-03 08:04:16', tz="UTC")) # do from last indicator
 
