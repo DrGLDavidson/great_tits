@@ -16,7 +16,7 @@ names(eyes_10_2019)
 #🧽 CLEANING DATA ---- 
 
 eyes_10_2019_f<-eyes_10_2019%>%
-  select(Date, Hmsec, CounterID, TagID_1)
+  select(Date, Hmsec, CounterID, TagID_1,EventID)
 names(eyes_10_2019_f) # flituring the data
 
 
@@ -32,7 +32,10 @@ eyes_10_2019_f<-eyes_10_2019_f[!grepl('TagID_1', eyes_10_2019_f$RFID),]# removin
 
 
 
-eyes_10_2019_f<-eyes_10_2019_f[!eyes_10_2019_f$RFID=="",]#remove blank rows
+eyes_10_2019_f<-eyes_10_2019_f[!eyes_10_2019_f$RFID=="",]#remove blank rows - df shows the tag is recorded - pause here and add gab code for entry - time stamps - match with tags on c.c - new code - filture df ident which is the entry birds and then can only find the lat
+# could add colum, subtract man column by each other or flit
+# time might be off by one sec
+# merge by event id, have another column at the select add event (gab find code that filtures out everything but entry and merge by event id) 
 head(eyes_10_2019_f)
 
 # 🌎 Data exploration ----
