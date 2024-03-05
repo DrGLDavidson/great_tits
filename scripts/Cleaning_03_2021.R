@@ -47,7 +47,7 @@ setwd("~/GitHub/great_tits/scripts")# setting the working directory
 source("~/GitHub/great_tits/scripts/Cleaning_01_2019.R")
 source("~/GitHub/great_tits/scripts/Cleaning_02_2020.R")
 
-# merge two data frames by ID  stuck -----
+# merge two data frames by ID  stuck ----- 
 total <- merge(data "nest_2021_grt",data "nest_2019_grt",data "nest_2020_grt", by="pit_idm")
 
 joined_df <- merge(nest_2019_grt, nest_2020_grt, by.x = "antenna_pit_id_1", 
