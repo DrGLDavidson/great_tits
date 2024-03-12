@@ -55,7 +55,10 @@ class(eyes_73_2019_f$Date) # changing the data format to POSIXct class
 #first need to filter according to experiment time and last RFID tag before experiment start. Can do this my row number but also time may be better. Look at referencetag dataframe for time values. 
 
 # doesnt have a start its not on the thing 
-eyes_73_2019_t<-subset(eyes_73_2019_f,Date >= as.POSIXct('', tz="UTC")) # do from last indicator
+eyes_73_2019_t<-subset(eyes_73_2019_f,Date >= as.POSIXct('2019-05-22 09:44:21', tz="UTC")) # do from last indicator
+# add code to mannauly calculate at that time, add tag and do it that way 
+
+
 
 #this time is 45 minutes from the above time manually write this
 eyes_73_2019_t2<-subset(eyes_73_2019_t,Date <= as.POSIXct('2019-05-22 10:30:27 ', tz="UTC")) # make sure 45 mins
