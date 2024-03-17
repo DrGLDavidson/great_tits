@@ -40,8 +40,8 @@ write.csv(eyes_ias,file="eyes_ias.csv")
 # task 
 # excle man copy dates to age col using fliture (new coloumn age at time of sampling - can fliture by year)
 # na - find why the na
-# 20 have missing data (age at breeding season and add man) = gab does this 
-# sex - gab will look 
+# 20 have missing data (age at breeding season and add man) = gab does this # /
+# sex - gab will look /
 # methods - what i have done with the data - extracting master data base etc 
 # mention issues - cross reference id 
 

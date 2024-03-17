@@ -6,9 +6,9 @@ library(lubridate)# good dates
 
 #💾 IMPORTING DATA ----
 
-setwd("~/GitHub/great_tits/data/2020 Visit counters/170520_MW11_eyes_MW60_eyes_MW140_eyes")# setting the working directory
+setwd("~/GitHub/great_tits/data/2020 Visit counters/170520_MW142_eyes_MW60_eyes_MW80_ID")# setting the working directory
 
-eyes_60_2020<-read.delim(file= "C1272RT.TXT", sep="\t", header=TRUE)#loading in data
+eyes_60_2020<-read.delim(file= "C1256RT.TXT", sep="\t", header=TRUE)#loading in data
 names(eyes_60_2020)
 
 
@@ -24,7 +24,7 @@ names(eyes_60_2020_f)[names(eyes_60_2020_f) == "TagID_1"] <- "RFID" # renaming R
 
 uniqueIDs<-unique(eyes_60_2020_f$RFID)
 uniqueIDs #lets you see the different ids in the df
-# ""           "TagID_1 "   "0300030EFF""01103F502D" "01103F5E04" "011016FD16""01103F9AC4" "01103F9125"
+# ""           "TagID_1 "   "0300030EFF" "01103F502D" "01103F5E04" "011016FD16" "01103F9AC4" "01103F9125"
 
 eyes_60_2020_f<-eyes_60_2020_f[!grepl('TagID_1', eyes_60_2020_f$RFID),]# removing tagid one 
 
@@ -35,7 +35,7 @@ head(eyes_60_2020_f)
 
 uniqueID<- unique(eyes_60_2020_f$RFID)
 uniqueID #only 3 different individuals
-# "0300030EFF" "01103F502D" "01103F5E04""011016FD16" "01103F9AC4" "01103F9125"
+# "0300030EFF" "01103F502D" "01103F5E04" "011016FD16" "01103F9AC4" "01103F9125"
 
 #"0300024FEF", "0300030EFF" -> is the start and stop indicator 
 
@@ -55,10 +55,10 @@ class(eyes_60_2020_f$Date) # changing the data format to POSIXct class
 #first need to filter according to experiment time and last RFID tag before experiment start. Can do this my row number but also time may be better. Look at referencetag dataframe for time values. 
 
 
-eyes_60_2020_t<-subset(eyes_60_2020_f,Date >= as.POSIXct('2020-05-17 10:36:30', tz="UTC")) # do from last indicator
+eyes_60_2020_t<-subset(eyes_60_2020_f,Date >= as.POSIXct('2020-05-17 10:23:14', tz="UTC")) # do from last indicator
 
 #this time is 45 minutes from the above time manually write this
-eyes_60_2020_t2<-subset(eyes_60_2020_t,Date <= as.POSIXct('2020-05-17 11:20:08', tz="UTC")) # make sure 45 mins
+eyes_60_2020_t2<-subset(eyes_60_2020_t,Date <= as.POSIXct('2020-05-17 11:13:33', tz="UTC")) # make sure 45 mins
 ###FOR EMMA TO ADD THE CODE TO ADD THE NESTBOX AND YEAR TO data frame t2
 
 
@@ -67,7 +67,7 @@ eyes_60_2020_t2<-subset(eyes_60_2020_t,Date <= as.POSIXct('2020-05-17 11:20:08',
 
 eyes_60_2020_b.3<-eyes_60_2020_t2
 
-eyes_60_2020_b.3<-cbind(eyes_60_2020_b.3, nestbox='mw66') 
+eyes_60_2020_b.3<-cbind(eyes_60_2020_b.3, nestbox='mw60') 
 eyes_60_2020_b.3<-cbind(eyes_60_2020_b.3, year='2020')
 head(eyes_60_2020_b.3)
 
@@ -95,7 +95,7 @@ glimpse(latency_final_eyes_60_2020)
 
 #💾 SAVING----
 setwd("~/GitHub/great_tits/scripts")
-write.csv(latency_final_eyes_60_2020,file="totalVisits45m_mw66_2020.csv")
+write.csv(latency_final_eyes_60_2020,file="totalVisits45m_mw60_2020.csv")
 
 ##everything past here other than saving your dataframe is redundant. 
 

@@ -6,9 +6,9 @@ library(lubridate)# good dates
 
 #💾 IMPORTING DATA ----
 
-setwd("~/GitHub/great_tits/data/2019 Visit counters/")# setting the working directory
+setwd("~/GitHub/great_tits/data/2019 Visit counters/140519_MW38_ID_MW56_eyes")# setting the working directory
 
-eyes_41_2019<-read.delim(file= ".TXT", sep="\t", header=TRUE)#loading in data
+eyes_41_2019<-read.delim(file= "C1256RT.TXT", sep="\t", header=TRUE)#loading in data
 names(eyes_41_2019)
 
 
@@ -24,7 +24,7 @@ names(eyes_41_2019_f)[names(eyes_41_2019_f) == "TagID_1"] <- "RFID" # renaming R
 
 uniqueIDs<-unique(eyes_41_2019_f$RFID)
 uniqueIDs #lets you see the different ids in the df
-# "0300024FEF" ""           "TagID_1 " "0419483034" "0110174FC8" "01103F5B01" "011016FBDD" "01101738AB" "011016FB0C"
+# ""           "TagID_1 "   "0300024FEF" "04194814E0" "01103F3CFC" "01101738A7" "0110172A7D" "011016F9DA" "01103F706A"
 
 
 
@@ -37,7 +37,7 @@ head(eyes_41_2019_f)
 
 uniqueID<- unique(eyes_41_2019_f$RFID)
 uniqueID #only 3 different individuals
-#"0300024FEF" "0419483034" "0110174FC8" "01103F5B01" "011016FBDD" "01101738AB" "011016FB0C"
+#"0300024FEF" "04194814E0" "01103F3CFC" "01101738A7" "0110172A7D" "011016F9DA" "01103F706A"
 
 #"0300024FEF", "0300030EFF" -> is the start and stop indicator 
 
@@ -56,10 +56,10 @@ class(eyes_41_2019_f$Date) # changing the data format to POSIXct class
 #first need to filter according to experiment time and last RFID tag before experiment start. Can do this my row number but also time may be better. Look at referencetag dataframe for time values. 
 
 
-eyes_41_2019_t<-subset(eyes_41_2019_f,Date >= as.POSIXct('2019-05-09 13:14:22', tz="UTC")) # do from last indicator
+eyes_41_2019_t<-subset(eyes_41_2019_f,Date >= as.POSIXct('2019-05-14 10:51:34', tz="UTC")) # do from last indicator
 
 #this time is 45 minutes from the above time manually write this
-eyes_41_2019_t2<-subset(eyes_41_2019_t,Date <= as.POSIXct('2019-05-09 14:01:25 ', tz="UTC")) # make sure 45 mins
+eyes_41_2019_t2<-subset(eyes_41_2019_t,Date <= as.POSIXct('2019-05-14 11:38:52 ', tz="UTC")) # make sure 45 mins
 ###FOR EMMA TO ADD THE CODE TO ADD THE NESTBOX AND YEAR TO data frame t2
 
 
