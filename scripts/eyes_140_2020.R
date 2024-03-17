@@ -58,7 +58,8 @@ class(eyes_140_2020_f$Date) # changing the data format to POSIXct class
 eyes_140_2020_t<-subset(eyes_140_2020_f,Date >= as.POSIXct('2020-05-17 11:41:05', tz="UTC")) # do from last indicator
 
 #this time is 45 minutes from the above time manually write this
-eyes_140_2020_t2<-subset(eyes_140_2020_t,Date <= as.POSIXct('', tz="UTC")) # make sure 45 mins
+eyes_140_2020_t2<-subset(eyes_140_2020_t,Date <= as.POSIXct('2020-05-17 12:42:24', tz="UTC")) # make sure 45 mins
+#no one came back 
 # missing the final date 
 
 # 📅 DATE ----

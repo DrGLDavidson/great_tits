@@ -6,9 +6,9 @@ library(lubridate)# good dates
 
 #💾 IMPORTING DATA ----
 
-setwd("~/GitHub/great_tits/data/2021 Visit counters/")# setting the working directory
+setwd("~/GitHub/great_tits/data/2021 Visit counters/160521_MV122_ID_MW29_eyes")# setting the working directory
 
-eyes_28_2021<-read.delim(file= ".TXT", sep="\t", header=TRUE)#loading in data
+eyes_28_2021<-read.delim(file= "C1272RT.TXT", sep="\t", header=TRUE)#loading in data
 names(eyes_28_2021)
 
 
@@ -35,7 +35,7 @@ head(eyes_28_2021_f)
 
 uniqueID<- unique(eyes_28_2021_f$RFID)
 uniqueID #only 3 different individuals
-# "0300030EFF" "01103FDE4F" "011016FE30"
+# "0300030EFF" "01103FE42F" "0110174FC8"
 
 #"0300024FEF", "0300030EFF" -> is the start and stop indicator 
 
@@ -55,10 +55,10 @@ class(eyes_28_2021_f$Date) # changing the data format to POSIXct class
 #first need to filter according to experiment time and last RFID tag before experiment start. Can do this my row number but also time may be better. Look at referencetag dataframe for time values. 
 
 
-eyes_28_2021_t<-subset(eyes_28_2021_f,Date >= as.POSIXct('', tz="UTC")) # do from last indicator
+eyes_28_2021_t<-subset(eyes_28_2021_f,Date >= as.POSIXct('2021-05-16 09:15:57', tz="UTC")) # do from last indicator
 
 #this time is 45 minutes from the above time manually write this
-eyes_28_2021_t2<-subset(eyes_28_2021_t,Date <= as.POSIXct('', tz="UTC")) # make sure 45 mins
+eyes_28_2021_t2<-subset(eyes_28_2021_t,Date <= as.POSIXct('2021-05-16 10:00:50', tz="UTC")) # make sure 45 mins
 #not exactly 45mins 
 
 # missing the final date 
