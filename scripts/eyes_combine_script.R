@@ -13,8 +13,8 @@ setwd("~/GitHub/great_tits/scripts")
 write.csv(eyes_combine,file="eyes_combine")
 
 
-repeat_birds<- duplicated(eyes_combine$RFID)
-repeat_birds<- as.data.frame(repeat_birds)
+repeat_birds<- duplicated(eyes_combine$RFID) # finding the dups 
+repeat_birds<- as.data.frame(repeat_birds) # dups as df
 
 
 eyes_with_repeats <- merge(eyes_combine,repeat_birds,by="row.names", all.x = T) 
@@ -24,14 +24,14 @@ write.csv(eyes_with_repeats,file="eyes_with_repeats") # man check control f
 
 
 setwd("~/GitHub/great_tits/data")
-individual_age<-read.csv(file= "IndividualsTable_ageatBreedingSeason.csv", header=TRUE)
+individual_age<-read.csv(file= "IndividualsTable_ageatBreedingSeason.csv", header=TRUE) # reading the data
 
 names(individual_age)
 
 ias<-individual_age %>% 
   select(age,sex,Age2019BreedingSeason,Age2020BreedingSeason,Age2021BreedingSeason,pitID)
 
-names(ias)[names(ias) == "pitID"] <- "RFID" # chanign the names 
+names(ias)[names(ias) == "pitID"] <- "RFID" # changing the names 
 names(ias)
 
 eyes_ias <-merge (eyes_with_repeats,ias, by = "RFID", all.x = T)
@@ -57,13 +57,16 @@ write.csv(eyes_ias,file="eyes_ias.csv")
 # bind rows 
 
 
-# f
+# fledglings ----
 
 path<-setwd("~/GitHub/great_tits/data")
-repeats<-read.csv(file = "eyes_ias_repeatability.csv", header = TRUE)
+repeats<-read.csv(file = "eyes_ias_repeatability.csv", header = TRUE) #loading in the data 
 nest_2019<-read.csv(file = "nest_id_from_2019.csv", header = TRUE)
 nest_2020<-read.csv(file = "nest_id_from_2020.csv", header = TRUE)
 nest_2021<-read.csv(file = "nest_id_from_2021.csv", header = TRUE)
+
+# 2019 ----
+
 
 head(repeats)
 
@@ -90,12 +93,12 @@ repeats_2019 <-merge (repeats_2019,df_2019_final, by = "RFID", all.x = T)
 rm(df_2019, data, df_2019_2, nest_2019) # how to remove 
 # dont over right repeats_2019 
 
-# 2020
+# 2020 -----
 
-# 2021
+# 2021 -----
 
-# final bind 
+# binding fledglings to make the final df -----
 
-final_data<- bind_rows(repeats_2019, repeats_2020, repeats_2021) # 
+final_data<- bind_rows(repeats_2019, repeats_2020, repeats_2021) #binding to make the final df
 
 
