@@ -55,3 +55,47 @@ write.csv(eyes_ias,file="eyes_ias.csv")
 # repeat for antenna 1 
 # repeat for 2020, 2021
 # bind rows 
+
+
+# f
+
+path<-setwd("~/GitHub/great_tits/data")
+repeats<-read.csv(file = "eyes_ias_repeatability.csv", header = TRUE)
+nest_2019<-read.csv(file = "nest_id_from_2019.csv", header = TRUE)
+nest_2020<-read.csv(file = "nest_id_from_2020.csv", header = TRUE)
+nest_2021<-read.csv(file = "nest_id_from_2021.csv", header = TRUE)
+
+head(repeats)
+
+names(nest_2019)
+df_2019<- nest_2019 %>% 
+  select(antenna_pit_tag_id_1, number_fledged, site_box_number) # can double check if matching
+
+names(df_2019)[names(df_2019) == "antenna_pit_tag_id_1"] <- "RFID" # renaming RFID 
+
+
+
+df_2019_2<- nest_2019 %>% 
+  select(antenna_pit_tag_id_2, number_fledged, site_box_number) 
+
+names(df_2019_2)[names(df_2019_2) == "antenna_pit_tag_id_2"] <- "RFID"
+
+
+repeats_2019<-repeats[repeats$year == '2019',]
+
+df_2019_final<-bind_rows(df_2019,df_2019_2) 
+
+repeats_2019 <-merge (repeats_2019,df_2019_final, by = "RFID", all.x = T)
+
+rm(df_2019, data, df_2019_2, nest_2019) # how to remove 
+# dont over right repeats_2019 
+
+# 2020
+
+# 2021
+
+# final bind 
+
+final_data<- bind_rows(repeats_2019, repeats_2020, repeats_2021) # 
+
+
