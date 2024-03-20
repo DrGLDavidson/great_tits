@@ -52,3 +52,4 @@ total <- merge(data "nest_2021_grt",data "nest_2019_grt",data "nest_2020_grt", b
 
 joined_df <- merge(nest_2019_grt, nest_2020_grt, by.x = "antenna_pit_id_1", 
                    by.y = "antenna_pit_id_1", all.x = TRUE, all.y = FALSE)
+

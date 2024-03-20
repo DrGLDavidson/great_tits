@@ -166,6 +166,7 @@ rm(df_2021, data, df_2021_2, nest_2021) # how to remove
 
 final_data<- bind_rows(repeats_2019, repeats_2020, repeats_2021) #binding to make the final df
 
-
+setwd("~/GitHub/great_tits/scripts")
+write.csv(final_data,file="final_data.csv")
 
 

@@ -99,3 +99,4 @@ setwd("~/GitHub/great_tits/scripts")
 write.csv(latency_final_eyes_41_2019,file="totalVisits45m_mw41_2019.csv")
 
 ##everything past here other than saving your dataframe is redundant. 
+
