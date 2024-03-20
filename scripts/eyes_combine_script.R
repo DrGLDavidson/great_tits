@@ -170,3 +170,15 @@ setwd("~/GitHub/great_tits/scripts")
 write.csv(final_data,file="final_data.csv")
 
 
+#_______________________----
+
+# count since may added man ----
+
+
+
+
+
+
+
+
+
