@@ -159,6 +159,7 @@ repeats_2019$number_fledged<- as.integer(repeats_2019$number_fledged)# changing 
 str(repeats_2019)
 str(repeats_2020)
 str(repeats_2021) 
+str(final_data_glm) 
 
 rm(df_2021, data, df_2021_2, nest_2021) # how to remove 
 
