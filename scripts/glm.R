@@ -30,11 +30,11 @@ rep1 <- rpt(latency ~(1 | RFID), grname = "RFID", data = final_data_glm,
 print(rep1)
 
 # R  = 0.434 (0.1-0.5) mod 
-# SE = dont need to report 
-# CI = 
-# p 
+# SE = don't need to report 
+# CI = lines in the graph, the should never go across 0, in this case they don't - [0, 0.764]
+# p = 0.0211
 
-# plot? - 
+# plot? - shown in the video and on the doc (have the same rank order differences )
 
 #_______________----
 
@@ -94,7 +94,7 @@ summary(model5)
 # predictions for personalty, better risk and shy on the year (habit and predator), could be the same over the different years, no selection (lit)
 
 
-# intro, methods and dis
+# intro, methods and dis - biggest 
 # results the least amount of words 
 # main concepts, why import 
 # cover page 
@@ -104,16 +104,3 @@ summary(model5)
 
 
 
-
-
-
-
-
-
-
-setwd("~/GitHub/great_tits/data") # setting the path
-tsm<-read.csv(file= "final_data_edit.csv", header=TRUE) # inserting the new data
-
-final_data_glm<-tsm%>%
-  select(RFID, Count_may, Date, Hmsec, CounterID, nestbox, year, latency, repeat_birds, sex, Age2019BreedingSeason, Age2020BreedingSeason, Age2021BreedingSeason, ageFinal, number_fledged, site_box_number)
-names(final_data_glm) # flituring the data
