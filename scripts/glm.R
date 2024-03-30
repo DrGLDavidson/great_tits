@@ -10,6 +10,7 @@ library(performance)# needed to instal for the stats graphs (posterior check)
 library(ggExtra)
 library(broom.mixed) # broom tables 
 library(patchwork)
+library(GGally)
 
 #_________________-----
 # LOADING IN DATA 
@@ -21,7 +22,6 @@ final_data_glm<-tsm %>%
   select(RFID, Count_may, Date, Hmsec, CounterID, nestbox, year, latency, repeat_birds, sex, Age2019BreedingSeason, Age2020BreedingSeason, Age2021BreedingSeason, ageFinal, number_fledged, site_box_number)
 names(final_data_glm) # flituring the data
 #___________-----
-
 #TEST 1 QUESTION: IS LATENCY REPEATABLE AND THEREFORE A PERSONALITY TRAIT? 
 
 #repeatability in simplest form 'unadjusted'
@@ -38,23 +38,26 @@ print(rep1)
 
 #plot 
 
-only_repeat_birds <- tsm %>%
+only_repeat_birds <- final_data_glm %>%
 filter(!(repeat_birds %in% c("FALSE"))) # flituring out non repeats
 # 011016FA48 doesnt repeat ?
 # changed 
+# doesnt show all of the data 
 
-ggplot(data = only_repeat_birds, aes(x =year, y = latency)) +
+ggplot(data = only_repeat_birds, aes(x =year, y =latency)) +
   geom_point(aes(color = RFID),
-             alpha = 0.7, 
+             alpha = 0.8, 
              show.legend = FALSE)+
-  geom_line(aes(color = RFID)) 
-  
-  
+  xlim(2019,2021)+
+  ylim(4,2600)+
+  geom_line(aes(color = RFID))+
+  theme_classic()+
+  labs(x = "Year", # labs names
+       y = "Latency (mins)")
+
+
+
 head(final_data_glm)
-
-
-
-
 
 
 #_______________----
@@ -104,6 +107,7 @@ summary_table1 <-
 summary_table2 <-
   remove_column(summary_table1,1) %>% 
   remove_column(summary_table2, 1) %>% 
+  
 
 # remove rows by cropping 
 
@@ -137,7 +141,77 @@ summary_table4 <-
   remove_column(summary_table3,1)
   remove_column(summary_table4,1)
   
+  
+#plot ---
 
+  
+  lat_age_scatter <-  # naming it
+    ggplot(final_data_glm, # using the filter cricket data set
+           aes(x= ageFinal,
+               y= latency,#
+               colour=se))+
+geom_jitter()+
+scale_color_gradient(low = "#AF7AC5", high = "#E74C3C", name ="b")+ # manal colour change 
+    geom_smooth (method = "lm", se = TRUE, fullrange = TRUE, colour="black")+# colour of the regression line
+    theme_classic()+
+    labs(x = "Age", # labs names
+         y = "Latency (seconds)")
+  
+
+age_Lat_scatter2 <- # scatter plot also the main plot
+    ggplot(final_data_glm, 
+           aes(x= ageFinal, 
+               y= latency, 
+               colour= factor(sex))) +
+    scale_color_discrete(name = "sex")+# change legend title
+    theme_classic()+ # theme
+    theme(legend.position = "top")+# removes the fig legend
+    geom_smooth(method = "lm", se=FALSE, fullrange =TRUE)+
+    geom_jitter()+
+    labs(x = "Age",
+         y = "Latency")
+  
+  change_marginal <- 
+    final_data_glm %>% 
+    ggplot(aes(
+      x=latency,
+      colour = factor(sex), # colour with the colour of the different diets
+      fill= factor(sex), #fill with the colour of the different diets
+      alpha = 0.1, # size
+      bandwidth = 175))+ # size
+    geom_density()+ # density plot
+    theme_void()+ # just the density plot no axis 
+    coord_flip()+ # flipping the cords
+    theme(legend.position = "none")#
+  
+  
+  age_Lat_scatter2+change_marginal # order of the plots
+
+ # violin plot
+  
+  age_Lat_scatter2 <- # scatter plot also the main plot
+    ggplot(final_data_glm, 
+           aes(x= ageFinal, 
+               y= latency, 
+               fill= sex)) +
+    geom_violin(aes(colour = sex), position = position_dodge(0.9),alpha =0.3, size=1)+
+    geom_point(aes(colour=sex),position = position_dodge(0.9))+
+    geom_jitter(aes(colour = sex))+ 
+    geom_boxplot(width = 0.1, trim = FALSE, position = position_dodge(0.9))+
+    scale_color_discrete(name = "sex")+# change legend title
+    theme_classic()+ # theme
+    theme(legend.position = "top")+# removes the fig legend
+    scale_fill_manual(values = c("hotpink", "blue"))+
+    scale_colour_manual(values = c("hotpink", "blue"))+
+    labs(x = "Age",
+         y = "Latency")
+
+  
+  
+  
+  
+  
+  
 #####FLEDGLING
 
 model3<-lmer(number_fledged ~ sex*latency + ageFinal*latency + Count_may +(1|nestbox)+ (1 | RFID), data = final_data_glm)
@@ -160,7 +234,7 @@ names(final_data_glm)
 
 
 summary_table5 <- 
-  lsmodel4 %>% 
+  model4 %>% 
   broom::tidy(conf.int = TRUE) %>% 
   mutate(p.value = scales::pvalue(p.value)) %>% # changes the pvalues <0.001
   rename("Term"="term",
@@ -178,11 +252,11 @@ summary_table5 <-
   kable_styling() # fancy style
 
 # remove effect and group
-summary_table5 <-
-  remove_column(summary_table4,1)
+summary_table8 <-
+  remove_column(summary_table5,1)
+remove_column(summary_table8,1)
 
-
-print(summary_table5)
+print(summary_table8)
 
 
 
