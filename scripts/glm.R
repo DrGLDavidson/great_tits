@@ -142,7 +142,7 @@ summary_table4 <-
   remove_column(summary_table4,1)
   
   
-#plot ---
+#plot ----
 
   
   lat_age_scatter <-  # naming it
@@ -187,32 +187,25 @@ age_Lat_scatter2 <- # scatter plot also the main plot
   
   age_Lat_scatter2+change_marginal # order of the plots
 
- # violin plot
-  
-  age_Lat_scatter2 <- # scatter plot also the main plot
+ # violin plot----
+   volin_2_used <- # scatter plot also the main plot
     ggplot(final_data_glm, 
            aes(x= ageFinal, 
                y= latency, 
-               fill= sex)) +
-    geom_violin(aes(colour = sex), position = position_dodge(0.9),alpha =0.3, size=1)+
-    geom_point(aes(colour=sex),position = position_dodge(0.9))+
-    geom_jitter(aes(colour = sex))+ 
-    geom_boxplot(width = 0.1, trim = FALSE, position = position_dodge(0.9))+
-    scale_color_discrete(name = "sex")+# change legend title
+               fill= ageFinal)) +
+    geom_violin(aes(colour = ageFinal), position = position_dodge(0.9),alpha =0.3, size=1.5)+
+    geom_point(aes(colour=ageFinal),position = position_dodge(0.9))+
+    geom_jitter(aes(colour = ageFinal))+ 
+    geom_boxplot(width = 0.1, position = position_dodge(0.9))+
     theme_classic()+ # theme
     theme(legend.position = "top")+# removes the fig legend
-    scale_fill_manual(values = c("hotpink", "blue"))+
-    scale_colour_manual(values = c("hotpink", "blue"))+
+    scale_fill_manual(values = c("hotpink", "purple"))+
+    scale_colour_manual(values = c("hotpink", "purple"))+
     labs(x = "Age",
          y = "Latency")
+# could do two fliture by sex to show if older males are more bold 
 
-  
-  
-  
-  
-  
-  
-#####FLEDGLING
+#####FLEDGLING-----
 
 model3<-lmer(number_fledged ~ sex*latency + ageFinal*latency + Count_may +(1|nestbox)+ (1 | RFID), data = final_data_glm)
 summary(model3)
@@ -259,16 +252,29 @@ remove_column(summary_table8,1)
 print(summary_table8)
 
 
+# graph ----
+
+# bold reproductive success----
 
 
-
+bold_repro_scatter_used<- 
+  ggplot(final_data_glm, 
+         aes(x= number_fledged, 
+             y= latency, 
+             colour= factor(sex))) + # separated for each diet percentage 
+  theme_classic()+ # theme 
+  geom_point()+
+  scale_colour_manual(values = c("hotpink", "deepskyblue"))+ 
+  geom_smooth(method = "lm", se = TRUE, fullrange = TRUE, colour= "#36454F")+ # colour of the lm
+  labs(x = "Number fledged",
+       y = "Latency")
 
 
 
 
 
 #_________________________________________________-----
-# how the year effects the reproductuve sucess 
+# how the year effects the reproductuve sucess ----
 model5<-lmer(number_fledged ~ sex*latency + ageFinal + Count_may + year + (1|nestbox)+ (1 | RFID), data = final_data_glm)
 summary(model5)
 
@@ -296,6 +302,16 @@ summary_table7 <-
   remove_column(summary_table7,1) 
 
 print(summary_table7)
+
+# plot ----
+
+
+
+
+
+
+
+
 
 #800
   
