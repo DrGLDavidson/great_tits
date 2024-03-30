@@ -60,6 +60,33 @@ performance::check_model(lsmodel1)# seeing the fit of the model,in a image form
 
 drop1(lsmodel1, test = "F")# can look at the AIC, want the smallest AIC
 
+summary_table1 <- 
+  lsmodel1 %>% 
+  broom::tidy(conf.int = TRUE) %>% 
+  mutate(p.value = scales::pvalue(p.value)) %>% # changes the pvalues <0.001
+  rename("Term"="term",
+         "Coefficient" = "estimate", # changing the names to be better
+         "Standard Error" = "std.error",
+         "t" = "statistic",
+         "p value" = "p.value",
+         "lower.CI" = "conf.low",
+         "upper.CI" = "conf.high")%>%
+  mutate(across(c(Coefficient: t), round,5)) %>% 
+  kbl() %>% 
+  dplyr::select(-sd__Observation) %>%
+  kable_styling(latex_options = "hold_position") %>% # to stop the table moving in markdown!!!!
+#row_spec(c(3,5,7), color = 'white', background = 'purple') %>% # the most sig highlighted in colour
+  row_spec(c(0), italic = TRUE, align = "c") %>% # titles italic
+  kable_styling() # fancy style
+
+# remove effect and group
+summary_table2 <-
+  remove_column(summary_table1,1) %>% 
+  remove_column(summary_table2, 1) %>% 
+  remove_line(summary_table2)
+
+# remove rows by cropping 
+
 
 #____________----
 
@@ -67,14 +94,40 @@ drop1(lsmodel1, test = "F")# can look at the AIC, want the smallest AIC
 lsmodel2<-lmer(latency ~  sex+ageFinal+ Count_may+(1|nestbox)+ (1 | RFID), data = final_data_glm)  ##need to add fledglings
 summary(lsmodel2)
 
+summary_table3 <- 
+  lsmodel2 %>% 
+  broom::tidy(conf.int = TRUE) %>% 
+  mutate(p.value = scales::pvalue(p.value)) %>% # changes the pvalues <0.001
+  rename("Term"="term",
+         "Coefficient" = "estimate", # changing the names to be better
+         "Standard Error" = "std.error",
+         "t" = "statistic",
+         "p value" = "p.value",
+         "lower.CI" = "conf.low",
+         "upper.CI" = "conf.high")%>%
+  mutate(across(c(Coefficient: t), round,5)) %>% 
+  kbl() %>% 
+  kable_styling(latex_options = "hold_position") %>% # to stop the table moving in markdown!!!!
+#  row_spec(c(3,5,7), color = 'white', background = 'purple') %>% # the most sig highlighted in colour
+  row_spec(c(0), italic = TRUE, align = "c") %>% # titles italic
+  kable_styling() # fancy style
+
+# remove effect and group
+summary_table4 <-
+  remove_column(summary_table3,1)
+  remove_column(summary_table4,1)
+  
+
 #####FLEDGLING
 
 model3<-lmer(number_fledged ~ sex*latency + ageFinal*latency + Count_may +(1|nestbox)+ (1 | RFID), data = final_data_glm)
 summary(model3)
-
+drop1(model3, test = "F")
 
 model3b<-lmer(number_fledged ~ sex*latency + ageFinal + Count_may +(1|nestbox)+ (1 | RFID), data = final_data_glm)
 summary(model3b)
+drop1(model3, test = "F")
+# ageFinal*latency removed 
 
 
 model4<-lmer(number_fledged ~ sex+latency + ageFinal + Count_may +(1|nestbox)+ (1 | RFID), data = final_data_glm)
@@ -85,8 +138,73 @@ performance::check_model(model4)
 names(final_data_glm)
 #drop non-significant interactions and rerun
 
+
+summary_table5 <- 
+  lsmodel4 %>% 
+  broom::tidy(conf.int = TRUE) %>% 
+  mutate(p.value = scales::pvalue(p.value)) %>% # changes the pvalues <0.001
+  rename("Term"="term",
+         "Coefficient" = "estimate", # changing the names to be better
+         "Standard Error" = "std.error",
+         "t" = "statistic",
+         "p value" = "p.value",
+         "lower.CI" = "conf.low",
+         "upper.CI" = "conf.high")%>%
+  mutate(across(c(Coefficient: t), round,5)) %>% 
+  kbl() %>% 
+  kable_styling(latex_options = "hold_position") %>% # to stop the table moving in markdown!!!!
+  #  row_spec(c(3,5,7), color = 'white', background = 'purple') %>% # the most sig highlighted in colour
+  row_spec(c(0), italic = TRUE, align = "c") %>% # titles italic
+  kable_styling() # fancy style
+
+# remove effect and group
+summary_table5 <-
+  remove_column(summary_table4,1)
+
+
+print(summary_table5)
+
+
+
+
+
+
+
+
+
+
+#_________________________________________________-----
+# how the year effects the reproductuve sucess 
 model5<-lmer(number_fledged ~ sex*latency + ageFinal + Count_may + year + (1|nestbox)+ (1 | RFID), data = final_data_glm)
 summary(model5)
+
+summary_table6 <- 
+  model5 %>% 
+  broom::tidy(conf.int = TRUE) %>% 
+  mutate(p.value = scales::pvalue(p.value)) %>% # changes the pvalues <0.001
+  rename("Term"="term",
+         "Coefficient" = "estimate", # changing the names to be better
+         "Standard Error" = "std.error",
+         "t" = "statistic",
+         "p value" = "p.value",
+         "lower.CI" = "conf.low",
+         "upper.CI" = "conf.high")%>%
+  mutate(across(c(Coefficient: t), round,5)) %>% 
+  kbl() %>% 
+  kable_styling(latex_options = "hold_position") %>% # to stop the table moving in markdown!!!!
+  #  row_spec(c(3,5,7), color = 'white', background = 'purple') %>% # the most sig highlighted in colour
+  row_spec(c(0), italic = TRUE, align = "c") %>% # titles italic
+  kable_styling() # fan
+# remove effect and group
+summary_table7 <-
+  remove_column(summary_table6,1) 
+
+  remove_column(summary_table7,1) 
+
+print(summary_table7)
+
+#800
+  
 # 45 mins 
 # reproductive success and laydate, the later breeding in the year the poorer the amount of offspring, so there isnt enough food - not seeing this here so this is different 
 # mandingly woods (G) great tit chicks look very good quality and they all seem to be of the size but in cork they is alot of varibltiy in the quality 
