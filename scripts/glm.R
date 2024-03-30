@@ -36,6 +36,27 @@ print(rep1)
 
 # plot? - shown in the video and on the doc (have the same rank order differences )
 
+#plot 
+
+only_repeat_birds <- tsm %>%
+filter(!(repeat_birds %in% c("FALSE"))) # flituring out non repeats
+# 011016FA48 doesnt repeat ?
+# changed 
+
+ggplot(data = only_repeat_birds, aes(x =year, y = latency)) +
+  geom_point(aes(color = RFID),
+             alpha = 0.7, 
+             show.legend = FALSE)+
+  geom_line(aes(color = RFID)) 
+  
+  
+head(final_data_glm)
+
+
+
+
+
+
 #_______________----
 
 rep2 <- rpt(latency ~sex + ageFinal + year+ (1|nestbox)+ (1 | RFID), grname = "RFID", data = final_data_glm, 
@@ -83,7 +104,6 @@ summary_table1 <-
 summary_table2 <-
   remove_column(summary_table1,1) %>% 
   remove_column(summary_table2, 1) %>% 
-  remove_line(summary_table2)
 
 # remove rows by cropping 
 
