@@ -11,7 +11,7 @@ library(ggExtra)
 library(broom.mixed) # broom tables 
 library(patchwork)
 library(GGally)
-
+library(gt) 
 #_________________-----
 # LOADING IN DATA 
 
@@ -65,6 +65,7 @@ head(final_data_glm)
 rep2 <- rpt(latency ~sex + ageFinal + year+ (1|nestbox)+ (1 | RFID), grname = "RFID", data = final_data_glm, 
             datatype = "Gaussian", nboot = 1000, npermut = 0)
 print(rep2)
+
 
 # not when controlled
 
@@ -142,6 +143,7 @@ summary_table4 <-
   remove_column(summary_table4,1)
   
   
+  
 #plot ----
 
   
@@ -203,6 +205,48 @@ age_Lat_scatter2 <- # scatter plot also the main plot
     scale_colour_manual(values = c("hotpink", "purple"))+
     labs(x = "Age",
          y = "Latency")
+  
+  # test volin 
+  only_male <- final_data_glm %>%
+    filter(!(sex %in% c("F")))
+  
+  male <- 
+  ggplot(only_male, 
+         aes(x= ageFinal, 
+             y= latency, 
+             fill= ageFinal)) +
+    geom_violin(aes(colour = ageFinal), position = position_dodge(0.9),alpha =0.3, size=1.5)+
+    geom_point(aes(colour=ageFinal),position = position_dodge(0.9))+
+    geom_jitter(aes(colour = ageFinal))+ 
+    geom_boxplot(width = 0.1, position = position_dodge(0.9))+
+    theme_classic()+ # theme
+    theme(legend.position = "top")+# removes the fig legend
+    scale_fill_manual(values = c("skyblue", "skyblue"))+
+    scale_colour_manual(values = c("skyblue", "skyblue"))+
+    labs(x = "Age",
+         y = "Latency")
+         
+  only_female <- final_data_glm %>%
+    filter(!(sex %in% c("M")))
+  
+female <- 
+  ggplot(only_female, 
+         aes(x= ageFinal, 
+             y= latency, 
+             fill= ageFinal)) +
+    geom_violin(aes(colour = ageFinal), position = position_dodge(0.9),alpha =0.3, size=1.5)+
+    geom_point(aes(colour=ageFinal),position = position_dodge(0.9))+
+    geom_jitter(aes(colour = ageFinal))+ 
+    geom_boxplot(width = 0.1, position = position_dodge(0.9))+
+    theme_classic()+ # theme
+    theme(legend.position = "top")+# removes the fig legend
+    scale_fill_manual(values = c("hotpink", "hotpink"))+
+    scale_colour_manual(values = c("hotpink", "hotpink"))+
+    labs(x = "Age",
+         y = "Latency")   
+
+female+male
+ 
 # could do two fliture by sex to show if older males are more bold 
 
 #####FLEDGLING-----
@@ -255,22 +299,95 @@ print(summary_table8)
 # graph ----
 
 # bold reproductive success----
-
+# lm for male and female 
 
 bold_repro_scatter_used<- 
   ggplot(final_data_glm, 
          aes(x= number_fledged, 
              y= latency, 
-             colour= factor(sex))) + # separated for each diet percentage 
+             colour= sex)) + # separated for each diet percentage 
   theme_classic()+ # theme 
-  geom_point()+
+  geom_jitter()+
   scale_colour_manual(values = c("hotpink", "deepskyblue"))+ 
+ #geom_smooth(method = "lm", se = TRUE, fullrange = TRUE, colour= "#36454F")+ # colour of the lm
+  geom_smooth(method="lm",    #add another layer of data representation.
+              se=TRUE,
+              aes(colour=sex))+ 
+  labs(x = "Number fledged",
+       y = "Latency")
+
+# ONLY FEMALE AND MALE VERSION OF ABOVE -----
+
+
+bold_repro_scatter_used_female<- 
+  ggplot(only_female, 
+         aes(x= number_fledged, 
+             y= latency, 
+             colour= sex)) + # separated for each diet percentage 
+  theme_classic()+ # theme 
+  geom_jitter()+
+  scale_colour_manual(values = c("hotpink"))+ 
+  #geom_smooth(method = "lm", se = TRUE, fullrange = TRUE, colour= "#36454F")+ # colour of the lm
+  geom_smooth(method="lm",    #add another layer of data representation.
+              se=TRUE,
+              aes(colour=sex))+ 
+  labs(x = "Number fledged",
+       y = "Latency")
+
+
+
+bold_repro_scatter_used_male<- 
+  ggplot(only_male, 
+         aes(x= number_fledged, 
+             y= latency, 
+             colour= sex)) + # separated for each diet percentage 
+  theme_classic()+ # theme 
+  geom_jitter()+
+  scale_colour_manual(values = c("deepskyblue"))+ 
+  #geom_smooth(method = "lm", se = TRUE, fullrange = TRUE, colour= "#36454F")+ # colour of the lm
+  geom_smooth(method="lm",    #add another layer of data representation.
+              se=TRUE,
+              aes(colour=sex))+ 
+  labs(x = "Number fledged",
+       y = "Latency")
+
+
+
+bold_repro_scatter_used_male+bold_repro_scatter_used_female
+
+
+
+
+
+
+
+
+bold_repro_scatter_used_year<- 
+  ggplot(final_data_glm, 
+         aes(x= number_fledged, 
+             y= latency, 
+             colour= factor(year))) + # separated for each diet percentage 
+  theme_classic()+ # theme 
+  geom_jitter()+
+ # scale_colour_manual(values = c("hotpink", "deepskyblue"))+ 
   geom_smooth(method = "lm", se = TRUE, fullrange = TRUE, colour= "#36454F")+ # colour of the lm
   labs(x = "Number fledged",
        y = "Latency")
 
 
 
+bold_repro_scatter_used_year2<- 
+  ggplot(final_data_glm, 
+         aes(x= number_fledged, 
+             y= latency,
+             colour =Count_may))+
+  scale_color_gradient(low = "#AF7AC5", high = "#E74C3C", name ="Count May (days)")+ # manal colour change            colour= Count_may)) + # separated for each diet percentage 
+  theme_classic()+ # theme 
+  geom_jitter()+
+  # scale_colour_manual(values = c("hotpink", "deepskyblue"))+ 
+  geom_smooth(method = "lm", se = TRUE, fullrange = TRUE, colour= "#36454F")+ # colour of the lm
+  labs(x = "Number fledged",
+       y = "Latency")
 
 
 #_________________________________________________-----
@@ -302,6 +419,20 @@ summary_table7 <-
   remove_column(summary_table7,1) 
 
 print(summary_table7)
+
+
+# test doesnt make anything sig ---- 
+drop1(model5, test = "F") # seeing weather to drop something - age
+model6<-lmer(number_fledged ~ sex*latency + Count_may + year + (1|nestbox)+ (1 | RFID), data = final_data_glm)
+summary(model6)
+
+drop1(model6, test = "F") # seeing weather to drop something - sex*latency
+model7<-lmer(number_fledged ~ Count_may + year + (1|nestbox)+ (1 | RFID), data = final_data_glm)
+summary(model7)
+
+drop1(model7, test = "F")
+model8<-lmer(number_fledged ~ year + (1|nestbox)+ (1 | RFID), data = final_data_glm)
+summary(model8)
 
 # plot ----
 
