@@ -64,6 +64,10 @@ head(final_data_glm)
 
 rep2 <- rpt(latency ~sex + ageFinal + year+ (1|nestbox)+ (1 | RFID), grname = "RFID", data = final_data_glm, 
             datatype = "Gaussian", nboot = 1000, npermut = 0)
+
+summary(rep2)
+
+
 print(rep2)
 
 
@@ -98,16 +102,15 @@ summary_table1 <-
          "upper.CI" = "conf.high")%>%
   mutate(across(c(Coefficient: t), round,5)) %>% 
   kbl() %>% 
-  dplyr::select(-sd__Observation) %>%
   kable_styling(latex_options = "hold_position") %>% # to stop the table moving in markdown!!!!
-#row_spec(c(3,5,7), color = 'white', background = 'purple') %>% # the most sig highlighted in colour
+  #  row_spec(c(3,5,7), color = 'white', background = 'purple') %>% # the most sig highlighted in colour
   row_spec(c(0), italic = TRUE, align = "c") %>% # titles italic
   kable_styling() # fancy style
 
 # remove effect and group
 summary_table2 <-
-  remove_column(summary_table1,1) %>% 
-  remove_column(summary_table2, 1) %>% 
+  remove_column(summary_table1,1) 
+  remove_column(summary_table2, 1)
   
 
 # remove rows by cropping 
@@ -257,7 +260,7 @@ drop1(model3, test = "F")
 
 model3b<-lmer(number_fledged ~ sex*latency + ageFinal + Count_may +(1|nestbox)+ (1 | RFID), data = final_data_glm)
 summary(model3b)
-drop1(model3, test = "F")
+drop1(model3b, test = "F")
 # ageFinal*latency removed 
 
 
