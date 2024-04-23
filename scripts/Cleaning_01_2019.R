@@ -10,6 +10,7 @@ setwd("~/GitHub/great_tits/data")# setting the working directory
 
 data<-read.csv(file = "NestRecordsMadingley2019.csv", header = TRUE)
 names(data)
+glimpse(data)
 
 #🧽 CLEANING DATA ---- 
 

@@ -72,7 +72,6 @@ nest_2021<-read.csv(file = "nest_id_from_2021.csv", header = TRUE)
 
 # 2019 ----
 
-
 head(repeats) 
 names(nest_2019)
 

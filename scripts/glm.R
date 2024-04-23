@@ -9,7 +9,7 @@ library(kableExtra)
 library(performance)# needed to instal for the stats graphs (posterior check)
 library(ggExtra)
 library(broom.mixed) # broom tables 
-library(patchwork)
+#library(patchwork)
 library(GGally)
 library(gt) 
 #_________________-----
@@ -121,6 +121,9 @@ summary_table2 <-
 #interaction is not significant and can be removed
 lsmodel2<-lmer(latency ~  sex+ageFinal+ Count_may+(1|nestbox)+ (1 | RFID), data = final_data_glm)  ##need to add fledglings
 summary(lsmodel2)
+
+lsmodel2.1<-lmer(latency ~  sex+ageFinal+ Count_may+number_fledged+(1|nestbox)+ (1 | RFID), data = final_data_glm)  ##fledglings not sig so was removed 
+summary(lsmodel2.1)
 
 summary_table3 <- 
   lsmodel2 %>% 
