@@ -9,7 +9,7 @@ library(kableExtra)
 library(performance)# needed to instal for the stats graphs (posterior check)
 library(ggExtra)
 library(broom.mixed) # broom tables 
-#library(patchwork)
+library(patchwork)
 library(GGally)
 library(gt) 
 #_________________-----
@@ -122,8 +122,140 @@ summary_table2 <-
 lsmodel2<-lmer(latency ~  sex+ageFinal+ Count_may+(1|nestbox)+ (1 | RFID), data = final_data_glm)  ##need to add fledglings
 summary(lsmodel2)
 
-lsmodel2.1<-lmer(latency ~  sex+ageFinal+ Count_may+number_fledged+(1|nestbox)+ (1 | RFID), data = final_data_glm)  ##fledglings not sig so was removed 
+lsmodel2.1<-lmer(latency ~  sex+ageFinal+ Count_may+number_fledged+ year+(1|nestbox)+ (1 | RFID), data = final_data_glm)  ##fledglings not sig so was removed 
 summary(lsmodel2.1)
+
+fledged table_2.1<- 
+  lsmodel2.1 %>% 
+  broom::tidy(conf.int = TRUE) %>% 
+  mutate(p.value = scales::pvalue(p.value)) %>% # changes the pvalues <0.001
+  rename("Term"="term",
+         "Coefficient" = "estimate", # changing the names to be better
+         "Standard Error" = "std.error",
+         "t" = "statistic",
+         "p value" = "p.value",
+         "lower.CI" = "conf.low",
+         "upper.CI" = "conf.high")%>%
+  mutate(across(c(Coefficient: t), round,5)) %>% 
+  kbl() %>% 
+  kable_styling(latex_options = "hold_position") %>% # to stop the table moving in markdown!!!!
+  #  row_spec(c(3,5,7), color = 'white', background = 'purple') %>% # the most sig highlighted in colour
+  row_spec(c(0), italic = TRUE, align = "c") 
+
+
+
+
+
+#___________________________________________________________________
+#adding year -----
+
+
+lsmodel2.2<-lmer(latency ~  sex+ageFinal+ Count_may+ year +(1|nestbox)+ (1 | RFID), data = final_data_glm)  
+summary(lsmodel2.2)
+
+# new table 
+
+count_may_table <- 
+  lsmodel2.2 %>% 
+  broom::tidy(conf.int = TRUE) %>% 
+  mutate(p.value = scales::pvalue(p.value)) %>% # changes the pvalues <0.001
+  rename("Term"="term",
+         "Coefficient" = "estimate", # changing the names to be better
+         "Standard Error" = "std.error",
+         "t" = "statistic",
+         "p value" = "p.value",
+         "lower.CI" = "conf.low",
+         "upper.CI" = "conf.high")%>%
+  mutate(across(c(Coefficient: t), round,5)) %>% 
+  kbl() %>% 
+  kable_styling(latex_options = "hold_position") %>% # to stop the table moving in markdown!!!!
+  #  row_spec(c(3,5,7), color = 'white', background = 'purple') %>% # the most sig highlighted in colour
+  row_spec(c(0), italic = TRUE, align = "c") %>% # titles italic
+  kable_styling() # fancy style
+
+#____________________------
+# removing count may ====
+lsmodel2.3<-lmer(latency ~  sex+ageFinal+ year +(1|nestbox)+ (1 | RFID), data = final_data_glm)# removed may 
+summary(lsmodel2.3)
+
+
+lsmodel2.33<-lmer(latency ~  sex+ageFinal+ year:sex+(1|nestbox)+ (1 | RFID), data = final_data_glm)# removed may 
+summary(lsmodel2.33)
+
+summary_table2.33 <- 
+  lsmodel2.33 %>% 
+  broom::tidy(conf.int = TRUE) %>% 
+  mutate(p.value = scales::pvalue(p.value)) %>% # changes the pvalues <0.001
+  rename("Term"="term",
+         "Coefficient" = "estimate", # changing the names to be better
+         "Standard Error" = "std.error",
+         "t" = "statistic",
+         "p value" = "p.value",
+         "lower.CI" = "conf.low",
+         "upper.CI" = "conf.high")%>%
+  mutate(across(c(Coefficient: t), round,5)) %>% 
+  kbl() %>% 
+  kable_styling(latex_options = "hold_position") %>% # to stop the table moving in markdown!!!!
+  #  row_spec(c(3,5,7), color = 'white', background = 'purple') %>% # the most sig highlighted in colour
+  row_spec(c(5), color = 'white', background = 'deepskyblue') %>% # the most sig highlighted in colour
+  row_spec(c(0), italic = TRUE, align = "c") %>% # titles italic
+  kable_styling() # fancy style
+
+
+
+summary_table2.3 <- 
+  lsmodel2.3 %>% 
+  broom::tidy(conf.int = TRUE) %>% 
+  mutate(p.value = scales::pvalue(p.value)) %>% # changes the pvalues <0.001
+  rename("Term"="term",
+         "Coefficient" = "estimate", # changing the names to be better
+         "Standard Error" = "std.error",
+         "t" = "statistic",
+         "p value" = "p.value",
+         "lower.CI" = "conf.low",
+         "upper.CI" = "conf.high")%>%
+  mutate(across(c(Coefficient: t), round,5)) %>% 
+  kbl() %>% 
+  kable_styling(latex_options = "hold_position") %>% # to stop the table moving in markdown!!!!
+  #  row_spec(c(3,5,7), color = 'white', background = 'purple') %>% # the most sig highlighted in colour
+  row_spec(c(4), color = 'white', background = 'purple3') %>% # the most sig highlighted in colour
+  row_spec(c(0), italic = TRUE, align = "c") %>% # titles italic
+  kable_styling() # fancy style
+
+# graph year lat ----
+
+
+  ggplot(final_data_glm, 
+         aes(x= year, 
+             y= latency, 
+             colour= sex)) + # separated for each diet percentage 
+  theme_classic()+ # theme 
+  geom_jitter()+
+  scale_colour_manual(values = c("hotpink", "deepskyblue"))+ 
+  #geom_smooth(method = "lm", se = TRUE, fullrange = TRUE, colour= "#36454F")+ # colour of the lm
+  geom_smooth(method="lm",    #add another layer of data representation.
+              se=TRUE,
+              aes(colour=sex))+ 
+  labs(x = "Year",
+       y = "Latency")
+
+
+ggplot(final_data_glm, 
+       aes(x= year, 
+           y= latency)) + # separated for each diet percentage 
+  theme_classic()+ # theme 
+  geom_jitter()+
+  scale_colour_manual(values = c("hotpink", "deepskyblue"))+ 
+  #geom_smooth(method = "lm", se = TRUE, fullrange = TRUE, colour= "#36454F")+ # colour of the lm
+  geom_smooth(method="lm",    #add another layer of data representation.
+              se=TRUE))+ 
+  labs(x = "year",
+       y = "Latency")
+
+#_____________________------
+
+
+#________________________
 
 summary_table3 <- 
   lsmodel2 %>% 
@@ -151,33 +283,22 @@ summary_table4 <-
   
   
 #plot ----
-
-  
-  lat_age_scatter <-  # naming it
-    ggplot(final_data_glm, # using the filter cricket data set
-           aes(x= ageFinal,
-               y= latency,#
-               colour=se))+
-geom_jitter()+
-scale_color_gradient(low = "#AF7AC5", high = "#E74C3C", name ="b")+ # manal colour change 
-    geom_smooth (method = "lm", se = TRUE, fullrange = TRUE, colour="black")+# colour of the regression line
-    theme_classic()+
-    labs(x = "Age", # labs names
-         y = "Latency (seconds)")
-  
-
 age_Lat_scatter2 <- # scatter plot also the main plot
     ggplot(final_data_glm, 
            aes(x= ageFinal, 
                y= latency, 
-               colour= factor(sex))) +
+               colour= sex)) +
     scale_color_discrete(name = "sex")+# change legend title
     theme_classic()+ # theme
     theme(legend.position = "top")+# removes the fig legend
-    geom_smooth(method = "lm", se=FALSE, fullrange =TRUE)+
+  #  geom_smooth(method = "lm", se=FALSE, fullrange =TRUE)+
     geom_jitter()+
+  geom_smooth(method="lm",    #add another layer of data representation.
+              se=TRUE,
+              aes(colour=sex))+ 
     labs(x = "Age",
-         y = "Latency")
+         y = "Latency",)
+  
   
   change_marginal <- 
     final_data_glm %>% 
@@ -227,8 +348,8 @@ age_Lat_scatter2 <- # scatter plot also the main plot
     geom_boxplot(width = 0.1, position = position_dodge(0.9))+
     theme_classic()+ # theme
     theme(legend.position = "top")+# removes the fig legend
-    scale_fill_manual(values = c("skyblue", "skyblue"))+
-    scale_colour_manual(values = c("skyblue", "skyblue"))+
+    scale_fill_manual(values = c("deepskyblue", "deepskyblue"))+
+    scale_colour_manual(values = c("deepskyblue", "deepskyblue"))+
     labs(x = "Age",
          y = "Latency")
          
@@ -257,26 +378,49 @@ female+male
 
 #####FLEDGLING-----
 
-model3<-lmer(number_fledged ~ sex*latency + ageFinal*latency + Count_may +(1|nestbox)+ (1 | RFID), data = final_data_glm)
+model3<-lmer(number_fledged ~ sex*latency + ageFinal*latency + Count_may + year+ year*Count_may+(1|nestbox)+ (1 | RFID), data = final_data_glm) # added year
 summary(model3)
 drop1(model3, test = "F")
 
-model3b<-lmer(number_fledged ~ sex*latency + ageFinal + Count_may +(1|nestbox)+ (1 | RFID), data = final_data_glm)
+model3b<-lmer(number_fledged ~ sex*latency + Count_may + year+ year*Count_may+(1|nestbox)+ (1 | RFID), data = final_data_glm) # added year
 summary(model3b)
 drop1(model3b, test = "F")
 # ageFinal*latency removed 
 
+summary_table_sexlat <- 
+  model3b %>% 
+  broom::tidy(conf.int = TRUE) %>% 
+  mutate(p.value = scales::pvalue(p.value)) %>% # changes the pvalues <0.001
+  rename("Term"="term",
+         "Coefficient" = "estimate", # changing the names to be better
+         "Standard Error" = "std.error",
+         "t" = "statistic",
+         "p value" = "p.value",
+         "lower.CI" = "conf.low",
+         "upper.CI" = "conf.high")%>%
+  mutate(across(c(Coefficient: t), round,5)) %>% 
+  kbl() %>% 
+  kable_styling(latex_options = "hold_position") %>% # to stop the table moving in markdown!!!!
+  #  row_spec(c(3,5,7), color = 'white', background = 'purple') %>% # the most sig highlighted in colour
+  row_spec(c(0), italic = TRUE, align = "c") %>% # titles italic
+  kable_styling() # fancy style
 
-model4<-lmer(number_fledged ~ sex+latency + ageFinal + Count_may +(1|nestbox)+ (1 | RFID), data = final_data_glm)
-summary(model4)
-performance::check_model(model4)
-# different to what other studues have found
+
 
 names(final_data_glm)
 #drop non-significant interactions and rerun
+#______________________
 
+#sex-lat removed
 
-summary_table5 <- 
+model4<-lmer(number_fledged ~ sex+latency + ageFinal + Count_may + year+ year*Count_may+(1|nestbox)+ (1 | RFID), data = final_data_glm) # added year
+summary(model4)
+
+performance::check_model(model4)
+
+#_____________________
+
+#summary_table5 <- 
   model4 %>% 
   broom::tidy(conf.int = TRUE) %>% 
   mutate(p.value = scales::pvalue(p.value)) %>% # changes the pvalues <0.001
