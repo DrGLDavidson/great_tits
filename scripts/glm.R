@@ -328,8 +328,8 @@ age_Lat_scatter2 <- # scatter plot also the main plot
     geom_boxplot(width = 0.1, position = position_dodge(0.9))+
     theme_classic()+ # theme
     theme(legend.position = "top")+# removes the fig legend
-    scale_fill_manual(values = c("hotpink", "purple"))+
-    scale_colour_manual(values = c("hotpink", "purple"))+
+    scale_fill_manual(values = c("darkorange", "purple"))+
+    scale_colour_manual(values = c("darkorange", "purple"))+
     labs(x = "Age",
          y = "Latency")
   
